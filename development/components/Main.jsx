@@ -12,13 +12,13 @@ export default class Main extends Component {
             <>
                 <Header />
                 <BrowserRouter>
-                    <>
                     <Switch>
-                        <Route path="/" component={Home} />
-                        <Route path="/articulo-1" component={Article}/>
+                        <Route exact path="/" component={Home} />
+                        <Route path="/articulo-1" render={() => <Article prop_prueba="Artículo 1" />}/>
+                        <Route path="/articulo-2" render={() => <Article prop_prueba="Artículo 2" />}/>
                     </Switch>
-                    </>
                 </BrowserRouter>
+                    
                 <Footer />
             </>
         );

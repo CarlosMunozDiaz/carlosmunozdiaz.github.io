@@ -3680,6 +3680,7 @@ function Home_isNativeReflectConstruct() { if (typeof Reflect === "undefined" ||
 function Home_getPrototypeOf(o) { Home_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return Home_getPrototypeOf(o); }
 
 
+
 var Home_Home = /*#__PURE__*/function (_Component) {
   Home_inherits(Home, _Component);
 
@@ -3694,7 +3695,11 @@ var Home_Home = /*#__PURE__*/function (_Component) {
   Home_createClass(Home, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("h2", null, "Home"));
+      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("h2", null, "Home"), /*#__PURE__*/react_default.a.createElement(Link, {
+        to: "/articulo-1"
+      }, "Art\xEDculo 1"), /*#__PURE__*/react_default.a.createElement(Link, {
+        to: "/articulo-2"
+      }, "Art\xEDculo 2"));
     }
   }]);
 
@@ -3739,7 +3744,7 @@ var Article_Article = /*#__PURE__*/function (_Component) {
   Article_createClass(Article, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("h2", null, "Art\xEDculo"), /*#__PURE__*/react_default.a.createElement(Link, {
+      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("h2", null, this.props.prop_prueba), /*#__PURE__*/react_default.a.createElement(Link, {
         to: "/"
       }, "Volver a Home"));
     }
@@ -3791,13 +3796,25 @@ var Main_Main = /*#__PURE__*/function (_Component) {
   Main_createClass(Main, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement(Header_Header, null), /*#__PURE__*/react_default.a.createElement(react_router_dom_BrowserRouter, null, /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement(react_router_Switch, null, /*#__PURE__*/react_default.a.createElement(react_router_Route, {
+      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement(Header_Header, null), /*#__PURE__*/react_default.a.createElement(react_router_dom_BrowserRouter, null, /*#__PURE__*/react_default.a.createElement(react_router_Switch, null, /*#__PURE__*/react_default.a.createElement(react_router_Route, {
+        exact: true,
         path: "/",
         component: Home_Home
       }), /*#__PURE__*/react_default.a.createElement(react_router_Route, {
         path: "/articulo-1",
-        component: Article_Article
-      })))), /*#__PURE__*/react_default.a.createElement(Footer_Footer, null));
+        render: function render() {
+          return /*#__PURE__*/react_default.a.createElement(Article_Article, {
+            prop_prueba: "Art\xEDculo 1"
+          });
+        }
+      }), /*#__PURE__*/react_default.a.createElement(react_router_Route, {
+        path: "/articulo-2",
+        render: function render() {
+          return /*#__PURE__*/react_default.a.createElement(Article_Article, {
+            prop_prueba: "Art\xEDculo 2"
+          });
+        }
+      }))), /*#__PURE__*/react_default.a.createElement(Footer_Footer, null));
     }
   }]);
 
