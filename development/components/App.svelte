@@ -1,14 +1,15 @@
 <script>
-  
+    import Router from 'svelte-spa-router';
+    import routes from './routes';
+
+    import Header from './Header/Header.svelte';
+    import Footer from './Footer/Footer.svelte';
+    import Navigation from './Body/Navigation/Navigation.svelte';
 </script>
 
-<style>
-  .main {
-    display: flex;
-    justify-content: center;
-  }
-</style>
-
-<div class="main">
-  <h1>Hello!</h1>
+<div>
+  <Header />
+  <Navigation />
+  <Router {routes} />
+  <Footer />
 </div>

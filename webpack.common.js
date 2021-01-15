@@ -9,7 +9,7 @@ module.exports = {
 				use: ['html-loader']
 			},
 			{
-				test: /\.js$/,
+				test: /\.m?(j|t)sx?$/,
 				exclude: /node_modules/,
 				use: {
 					loader: "babel-loader",
@@ -20,7 +20,6 @@ module.exports = {
 			},
 			{
 				test: /\.svelte$/,
-				exclude: /node_modules/,
 				use: {
 				  loader: 'svelte-loader'
 				}
@@ -35,6 +34,10 @@ module.exports = {
 		]
 	},
 	resolve: {
-		extensions: ['*', '.js', '.svelte']
+		alias: {
+		svelte: path.resolve('node_modules', 'svelte'),
+		},
+		extensions: ['.mjs', '.js', '.svelte'],
+		mainFields: ['svelte', 'browser', 'module', 'main'],
 	}
 };
