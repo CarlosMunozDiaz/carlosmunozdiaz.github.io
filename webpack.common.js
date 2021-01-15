@@ -9,13 +9,20 @@ module.exports = {
 				use: ['html-loader']
 			},
 			{
-				test: /\.(js|jsx)$/,
+				test: /\.js$/,
 				exclude: /node_modules/,
 				use: {
 					loader: "babel-loader",
 					options: {
-			          presets: ['@babel/preset-env', '@babel/preset-react']
+			          presets: ['@babel/preset-env']
 			        }
+				}
+			},
+			{
+				test: /\.svelte$/,
+				exclude: /node_modules/,
+				use: {
+				  loader: 'svelte-loader'
 				}
 			},
 			// {
@@ -28,6 +35,6 @@ module.exports = {
 		]
 	},
 	resolve: {
-		extensions: ['*', '.js', '.jsx']
+		extensions: ['*', '.js', '.svelte']
 	}
 };

@@ -1,9 +1,8 @@
-import React from 'react';
-import { render } from 'react-dom';
-import Main from './components/Main';
+import App from './components/App.svelte';
 import './css/main.scss';
 
-render( 
-    <Main />,
-    document.getElementById('root'),
-);
+const app = new App({
+    target: document.getElementById('root')
+});
+
+export default app;
