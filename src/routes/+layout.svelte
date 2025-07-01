@@ -21,7 +21,5 @@
 
 <Header />
 <HeaderNavigation />
-<main>
-	{@render children()}
-</main>
+{@render children()}
 <Footer />

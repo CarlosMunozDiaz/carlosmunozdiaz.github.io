@@ -5,9 +5,8 @@
 
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        gap: 12px;
+        gap: 16px;
         padding: 16px 0;
         position: relative;
 
@@ -19,11 +18,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        width: 200px;
     }
 
-    .f_contacto::after {
-        content: '•';
-        margin: 0 0.5rem;
+    .f_contacto .fc_title,
+    .f_rrss .fr_title {
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .f_contacto .fc_elems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
     }
 
     @media (min-width: 37.5em) {

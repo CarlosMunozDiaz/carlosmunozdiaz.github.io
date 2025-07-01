@@ -7,13 +7,16 @@
         view-transition-name: navigation;
 
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		gap: 32px;
 
 		height: 60px;
-
-		align-items: center;
-		border-bottom: 1px solid #ccc;
     }
+
+	nav a:hover {
+		color: #0070f3;
+	}
 </style>
 
 <nav>
