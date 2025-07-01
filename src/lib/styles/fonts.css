@@ -33,13 +33,14 @@ h1, h2 {
   color: var(--primary-color);
   margin: 1.2em 0 0.6em;
 }
-
-/* Subtítulos */
 h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   color: var(--secondary-color);
   margin: 1em 0 0.5em;
+}
+header span {
+  font-family: 'Merriweather', serif;
 }
 
 /* Texto general */
