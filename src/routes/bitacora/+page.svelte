@@ -2,7 +2,7 @@
   import posts from '$lib/data/bitacora.json';
 </script>
 
-<div view-transition-name="page">
+<div class="content" view-transition-name="page">
     <h1>BITÁCORA</h1>
     <ul>
     {#each posts as post}
