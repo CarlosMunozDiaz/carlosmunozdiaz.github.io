@@ -2,12 +2,6 @@
 	import './app.css';
 
 	import { onNavigate } from '$app/navigation';
-	
-    import Footer from './components/Footer.svelte';
-    import Header from './components/Header.svelte';
-    import Navigation from './components/Navigation.svelte';
-	let { children } = $props();
-
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
 
@@ -18,9 +12,16 @@
 			});
 		});
 	});
+	
+    import Footer from './components/Footer.svelte';
+    import Header from './components/Header.svelte';
+    import HeaderNavigation from './components/HeaderNavigation.svelte';
+	let { children } = $props();
 </script>
 
 <Header />
-<Navigation />
-{@render children()}
+<HeaderNavigation />
+<main>
+	{@render children()}
+</main>
 <Footer />

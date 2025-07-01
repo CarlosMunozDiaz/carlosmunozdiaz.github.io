@@ -4,13 +4,15 @@
     "title": "Cómo trabajar con JSON en SvelteKit",
     "content": "JSON es ideal para datos estructurados como estos...",
     "author": "Externo",
-    "fecha": "2023-10-01"
+    "fecha": "2023-10-01",
+    "link": "https://elpais.com/como-trabajar-con-json-en-sveltekit"
   },
   {
     "id": 2,
     "title": "Ventajas del minimalismo en diseño web",
     "content": "El minimalismo potencia la claridad y el enfoque...",
     "author": "Carlos Muñoz Díaz",
-    "fecha": "2023-10-02"
+    "fecha": "2023-10-02",
+    "link": "https://elconfidencial.com/ventajas-del-minimalismo-en-diseno-web"
   }
 ]

@@ -5,7 +5,8 @@
     "description": "JSON es ideal para datos estructurados como estos...",
     "author": "Juan Pérez",
     "medio": "El País",
-    "fecha": "2023-10-01"
+    "fecha": "2023-10-01",
+    "link": "https://elpais.com/como-trabajar-con-json-en-sveltekit"
   },
   {
     "id": 2,
@@ -13,6 +14,7 @@
     "description": "El minimalismo potencia la claridad y el enfoque...",
     "author": "Ana López",
     "medio": "El Confidencial",
-    "fecha": "2023-10-02"
+    "fecha": "2023-10-02",
+    "link": "https://elconfidencial.com/ventajas-del-minimalismo-en-diseno-web"
   }
 ]
