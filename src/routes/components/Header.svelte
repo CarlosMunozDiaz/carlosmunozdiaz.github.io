@@ -17,7 +17,7 @@
 
     .h_name {
         display: block;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: bold;
     } 
 
