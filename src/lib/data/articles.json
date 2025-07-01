@@ -16,5 +16,95 @@
     "medio": "El Confidencial",
     "fecha": "2023-10-02",
     "link": "https://elconfidencial.com/ventajas-del-minimalismo-en-diseno-web"
-  }
+  },
+  {
+    "id": 3,
+    "title": "Introducción a TypeScript para desarrolladores JavaScript",
+    "description": "TypeScript añade tipado estático a JavaScript, mejorando la mantenibilidad...",
+    "author": "Carlos García",
+    "medio": "Xataka",
+    "fecha": "2023-10-03",
+    "link": "https://xataka.com/introduccion-typescript-desarrolladores-javascript"
+    },
+    {
+    "id": 4,
+    "title": "Accesibilidad web: buenas prácticas esenciales",
+    "description": "La accesibilidad web garantiza que todos los usuarios puedan navegar sin barreras...",
+    "author": "Lucía Fernández",
+    "medio": "ABC Tecnología",
+    "fecha": "2023-10-04",
+    "link": "https://abc.es/tecnologia/accesibilidad-web-buenas-practicas"
+    },
+    {
+    "id": 5,
+    "title": "Optimización de imágenes para la web moderna",
+    "description": "Optimizar imágenes reduce tiempos de carga y mejora la experiencia de usuario...",
+    "author": "Miguel Torres",
+    "medio": "Genbeta",
+    "fecha": "2023-10-05",
+    "link": "https://genbeta.com/optimizacion-imagenes-web-moderna"
+    },
+    {
+    "id": 6,
+    "title": "¿Qué es JAMstack y por qué deberías considerarlo?",
+    "description": "JAMstack es una arquitectura moderna que mejora el rendimiento y la seguridad...",
+    "author": "Sofía Ruiz",
+    "medio": "El Mundo",
+    "fecha": "2023-10-06",
+    "link": "https://elmundo.es/que-es-jamstack-y-por-que-usarlo"
+    },
+    {
+    "id": 7,
+    "title": "Guía rápida de CSS Grid para principiantes",
+    "description": "CSS Grid facilita la creación de layouts complejos y responsivos...",
+    "author": "Pedro Sánchez",
+    "medio": "20minutos",
+    "fecha": "2023-10-07",
+    "link": "https://20minutos.es/guia-css-grid-principiantes"
+    },
+    {
+    "id": 8,
+    "title": "Cómo mejorar el SEO técnico de tu sitio web",
+    "description": "El SEO técnico es clave para que los motores de búsqueda indexen tu web correctamente...",
+    "author": "María Gómez",
+    "medio": "Cinco Días",
+    "fecha": "2023-10-08",
+    "link": "https://cincodias.elpais.com/mejorar-seo-tecnico-sitio-web"
+    },
+    {
+    "id": 9,
+    "title": "Automatización de tareas con Node.js",
+    "description": "Node.js permite automatizar procesos repetitivos y mejorar la productividad...",
+    "author": "Javier Martín",
+    "medio": "El Español",
+    "fecha": "2023-10-09",
+    "link": "https://elespanol.com/automatizacion-tareas-nodejs"
+    },
+    {
+    "id": 10,
+    "title": "Diseño responsivo: claves para adaptarse a cualquier dispositivo",
+    "description": "El diseño responsivo asegura una experiencia óptima en móviles, tablets y ordenadores...",
+    "author": "Elena Navarro",
+    "medio": "La Vanguardia",
+    "fecha": "2023-10-10",
+    "link": "https://lavanguardia.com/diseno-responsivo-claves"
+    },
+    {
+    "id": 11,
+    "title": "Ventajas de usar frameworks modernos como Svelte",
+    "description": "Frameworks como Svelte simplifican el desarrollo y mejoran el rendimiento...",
+    "author": "Raúl Ortega",
+    "medio": "El Diario",
+    "fecha": "2023-10-11",
+    "link": "https://eldiario.es/ventajas-frameworks-modernos-svelte"
+    },
+    {
+    "id": 12,
+    "title": "Buenas prácticas para la gestión de estados en aplicaciones web",
+    "description": "Una correcta gestión de estados evita errores y facilita el mantenimiento...",
+    "author": "Patricia Ramos",
+    "medio": "Expansión",
+    "fecha": "2023-10-12",
+    "link": "https://expansion.com/buenas-practicas-gestion-estados-web"
+    }
 ]

@@ -22,5 +22,8 @@ div.content {
     width: 100%;
     max-width: 1199px;
     margin: 0 auto;
+
+    box-sizing: border-box;
+    padding: 0em 1em;
 }
 /* FINAL ----- CONTENIDO GENÉRICO */

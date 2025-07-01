@@ -18,7 +18,7 @@
     .h_name {
         display: block;
         font-size: 2rem;
-        font-weight: bold;
+        font-weight: 400;
     } 
 
     .h_titles {
