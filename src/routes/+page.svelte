@@ -1,3 +1,3 @@
-<div view-transition-name="page2">
+<div view-transition-name="page">
     <h1>HOME!</h1>
 </div>

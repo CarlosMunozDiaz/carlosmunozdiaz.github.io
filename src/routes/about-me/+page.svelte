@@ -1,3 +1,3 @@
-<div view-transition-name="page2">
+<div view-transition-name="page">
     <h1>SOBRE MÍ</h1>
 </div>
