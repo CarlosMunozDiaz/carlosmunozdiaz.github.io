@@ -1,0 +1,25 @@
+/* ANIMACIONES */
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-out {
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes slide-to-left {
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(100vw);
+  }
+}
+/* FINAL ----- ANIMACIONES */
