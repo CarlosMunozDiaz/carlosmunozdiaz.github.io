@@ -86,7 +86,7 @@
 <div class="content" view-transition-name="page">
     <h1>BITÁCORA</h1>
     <p>Como buen cuaderno de bitácora, en este apartado incorporaré artículos periodísticos y de desarrollo web que puedan resultar interesantes para ampliar conocimiento.</p>
-    <p>Igualmente, incluiré <span>entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
+    <p>Igualmente, incluiré <span style="background: #ffeeba;">entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
     
     <div class="bitacora-layout">
       <div class="posts-list">
