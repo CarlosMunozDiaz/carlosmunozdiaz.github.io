@@ -1,0 +1,1 @@
+<h1>Esto se trataría de una entrada propia</h1>
