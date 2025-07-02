@@ -81,7 +81,7 @@
           padding-left: 1rem;
         }
       }
-    </style>
+</style>
 
 <div class="content" view-transition-name="page">
     <h1>BITÁCORA</h1>
