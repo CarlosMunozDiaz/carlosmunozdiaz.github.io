@@ -106,7 +106,7 @@
     <div class="about-me">
         <div class="am_image" bind:this={amImageEl}>
             <img
-                src="/media/cmd.webp"
+                src="{base}/media/cmd.webp"
                 alt="Carlos Muñoz Díaz"
                 width="100"
                 height="100"
