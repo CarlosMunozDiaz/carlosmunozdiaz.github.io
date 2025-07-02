@@ -1,1 +1,3 @@
-<h1>Esto se trataría de una entrada propia</h1>
+<div class="content" view-transition-name="page">
+    <h1>Entrada de bitácora</h1>
+</div>
