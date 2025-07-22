@@ -3,7 +3,8 @@
 
   const groupedPosts = posts.reduce((acc, post) => {
       const medio = post.medio;
-      const year = new Date(post.fecha).getFullYear();
+      const [day, month, yearStr] = post.fecha.split('/');
+      const year = parseInt(yearStr, 10);
       if (!acc[medio]) acc[medio] = {};
       if (!acc[medio][year]) acc[medio][year] = [];
       acc[medio][year].push(post);
