@@ -1,99 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Cómo trabajar con JSON en SvelteKit",
-    "content": "JSON es ideal para datos estructurados como estos...",
-    "author": "Externo",
-    "fecha": "2023-10-01",
-    "link": "https://elpais.com/como-trabajar-con-json-en-sveltekit"
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "",
+    "date_publication": "",
+    "date_read": "",
+    "link": "",
+    "image": "",
+    "own_entry": false
   },
   {
     "id": 2,
-    "title": "Ventajas del minimalismo en diseño web",
-    "content": "El minimalismo potencia la claridad y el enfoque...",
-    "author": "Carlos Muñoz Díaz",
-    "fecha": "2023-10-02",
-    "link": "https://elconfidencial.com/ventajas-del-minimalismo-en-diseno-web"
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "",
+    "date_publication": "",
+    "date_read": "",
+    "link": "",
+    "image": "",
+    "own_entry": false
   },
   {
     "id": 3,
-    "title": "Introducción a SvelteKit para principiantes",
-    "content": "SvelteKit simplifica la creación de aplicaciones web modernas...",
-    "author": "Ana López",
-    "fecha": "2023-10-03",
-    "link": "https://dev.to/introduccion-a-sveltekit"
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "",
+    "date_publication": "",
+    "date_read": "",
+    "link": "",
+    "image": "",
+    "own_entry": false
   },
   {
     "id": 4,
-    "title": "Accesibilidad web: buenas prácticas",
-    "content": "La accesibilidad es clave para llegar a más usuarios...",
-    "author": "Externo",
-    "fecha": "2023-10-04",
-    "link": "https://accesibilidadweb.com/buenas-practicas"
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "",
+    "date_publication": "",
+    "date_read": "",
+    "link": "",
+    "image": "",
+    "own_entry": false
   },
   {
     "id": 5,
-    "title": "Optimización de imágenes en la web",
-    "content": "Optimizar imágenes mejora el rendimiento y la experiencia...",
-    "author": "Carlos Muñoz Díaz",
-    "fecha": "2023-10-05",
-    "link": "https://web.dev/optimizacion-imagenes"
-  },
-  {
-    "id": 6,
-    "title": "CSS Grid vs Flexbox: ¿cuándo usar cada uno?",
-    "content": "Ambos sistemas de layout tienen ventajas según el caso...",
-    "author": "Externo",
-    "fecha": "2023-10-06",
-    "link": "https://css-tricks.com/css-grid-vs-flexbox"
-  },
-  {
-    "id": 7,
-    "title": "Cómo mejorar el SEO en SvelteKit",
-    "content": "El SEO es fundamental para la visibilidad de tu sitio...",
-    "author": "Ana López",
-    "fecha": "2023-10-07",
-    "link": "http://carlosmunozdiaz.es/bitacora/posts/test",
-    "entrada-propia": true
-  },
-  {
-    "id": 8,
-    "title": "Dark mode: implementación sencilla",
-    "content": "El modo oscuro es tendencia y fácil de implementar...",
-    "author": "Carlos Muñoz Díaz",
-    "fecha": "2023-10-08",
-    "link": "https://css-tricks.com/dark-mode-implementacion"
-  },
-  {
-    "id": 9,
-    "title": "Testing en aplicaciones Svelte",
-    "content": "Las pruebas aseguran la calidad y estabilidad del código...",
-    "author": "Externo",
-    "fecha": "2023-10-09",
-    "link": "https://testingjs.com/testing-svelte"
-  },
-  {
-    "id": 10,
-    "title": "Animaciones con Svelte: guía básica",
-    "content": "Las animaciones mejoran la experiencia de usuario...",
-    "author": "Ana López",
-    "fecha": "2023-10-10",
-    "link": "https://svelte.dev/animaciones-guia"
-  },
-  {
-    "id": 11,
-    "title": "Gestión de estado en SvelteKit",
-    "content": "Existen varias estrategias para manejar el estado global...",
-    "author": "Carlos Muñoz Díaz",
-    "fecha": "2023-10-11",
-    "link": "https://medium.com/gestion-estado-sveltekit"
-  },
-  {
-    "id": 12,
-    "title": "Desplegando SvelteKit en Vercel",
-    "content": "Vercel facilita el despliegue continuo de proyectos SvelteKit...",
-    "author": "Externo",
-    "fecha": "2023-10-12",
-    "link": "https://vercel.com/desplegar-sveltekit"
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "",
+    "date_publication": "",
+    "date_read": "",
+    "link": "",
+    "image": "",
+    "own_entry": false
   }
 ]

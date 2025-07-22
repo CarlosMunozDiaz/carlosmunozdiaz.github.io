@@ -1,110 +1,582 @@
 [
   {
     "id": 1,
-    "title": "Cómo trabajar con JSON en SvelteKit",
-    "description": "JSON es ideal para datos estructurados como estos...",
-    "author": "Juan Pérez",
+    "title": "Quién es quién en el cónclave: perfiles y detalles de los 133 cardenales que eligen al próximo Papa",
+    "description": "Desarrollo de un buscador con filtros para conocer a los cardenales que participaron en el cónclave de 2025.",
+    "authors": "Brenda Valverde, Carlos Muñoz, Daniela Gutiérrez",
     "medio": "El País",
-    "fecha": "2023-10-01",
-    "link": "https://elpais.com/como-trabajar-con-json-en-sveltekit"
+    "fecha": "24/04/2025",
+    "link": "https://elpais.com/internacional/2025-04-24/quien-es-quien-en-el-conclave-los-133-cardenales-que-elegiran-al-nuevo-papa.html",
+    "image": ""
   },
   {
     "id": 2,
-    "title": "Ventajas del minimalismo en diseño web",
-    "description": "El minimalismo potencia la claridad y el enfoque...",
-    "author": "Ana López",
-    "medio": "El Confidencial",
-    "fecha": "2023-10-02",
-    "link": "https://elconfidencial.com/ventajas-del-minimalismo-en-diseno-web"
+    "title": "La dana más trágica, minuto a minuto. Quién hizo qué mientras Valencia se inundaba",
+    "description": "Un seguimiento visual (tuits, informes) con scrolling vertical y horizontal y filtros temporales de los eventos y decisiones que marcaron las inundaciones en Valencia en octubre de 2024.",
+    "authors": "Julio Núñez, Carlos Muñoz, Brenda Valverde",
+    "medio": "El País",
+    "fecha": "02/05/2025",
+    "link": "https://elpais.com/espana/2025-05-02/la-dana-mas-tragica-minuto-a-minuto-quien-hizo-que-mientras-valencia-se-inundaba.html",
+    "image": ""
   },
   {
     "id": 3,
-    "title": "Introducción a TypeScript para desarrolladores JavaScript",
-    "description": "TypeScript añade tipado estático a JavaScript, mejorando la mantenibilidad...",
-    "author": "Carlos García",
-    "medio": "Xataka",
-    "fecha": "2023-10-03",
-    "link": "https://xataka.com/introduccion-typescript-desarrolladores-javascript"
-    },
-    {
+    "title": "Calculadora electoral de Estados Unidos: ¿qué Estados debe asegurarse el ganador?",
+    "description": "Desarrollo de una calculadora interactiva para jugar con quién ganaría las elecciones en EE.UU. en 2024.",
+    "authors": "Carlos Muñoz, Ignacio Povedano",
+    "medio": "El País",
+    "fecha": "05/11/2024",
+    "link": "https://elpais.com/internacional/elecciones-usa/2024-11-05/calculadora-electoral-de-estados-unidos-que-estados-debe-asegurarse-el-ganador.html",
+    "image": ""
+  },
+  {
     "id": 4,
-    "title": "Accesibilidad web: buenas prácticas esenciales",
-    "description": "La accesibilidad web garantiza que todos los usuarios puedan navegar sin barreras...",
-    "author": "Lucía Fernández",
-    "medio": "ABC Tecnología",
-    "fecha": "2023-10-04",
-    "link": "https://abc.es/tecnologia/accesibilidad-web-buenas-practicas"
-    },
-    {
+    "title": "Resultados históricos de las elecciones presidenciales en Estados Unidos",
+    "description": "Desarrollo de un mapa con filtro/selector temporal para ver los resultados de las elecciones presidenciales en EE.UU. desde 1868.",
+    "authors": "Ignacio Povedano, Carlos Muñoz",
+    "medio": "El País",
+    "fecha": "28/10/2024",
+    "link": "https://elpais.com/internacional/elecciones-usa/2024-10-28/resultados-historicos-de-las-elecciones-presidenciales-en-estados-unidos.html",
+    "image": ""
+  },
+  {
     "id": 5,
-    "title": "Optimización de imágenes para la web moderna",
-    "description": "Optimizar imágenes reduce tiempos de carga y mejora la experiencia de usuario...",
-    "author": "Miguel Torres",
-    "medio": "Genbeta",
-    "fecha": "2023-10-05",
-    "link": "https://genbeta.com/optimizacion-imagenes-web-moderna"
-    },
-    {
+    "title": "Desterrados en el desierto",
+    "description": "Desarrollo de una apertura en scroll con imágenes y textos, menú en sticky por capítulos, scroll vertical sobre vídeo (frame a frame) y scrolling vertical y horizontal.",
+    "authors": "María Martín, Lola Hierro, Diego Stacey",
+    "medio": "El País",
+    "fecha": "21/05/2024",
+    "link": "https://elpais.com/internacional/2024-05-21/detenciones-masivas-y-traslados-forzosos-asi-se-destierra-con-dinero-europeo-a-migrantes-en-el-norte-de-africa.html",
+    "image": ""
+  },
+  {
     "id": 6,
-    "title": "¿Qué es JAMstack y por qué deberías considerarlo?",
-    "description": "JAMstack es una arquitectura moderna que mejora el rendimiento y la seguridad...",
-    "author": "Sofía Ruiz",
-    "medio": "El Mundo",
-    "fecha": "2023-10-06",
-    "link": "https://elmundo.es/que-es-jamstack-y-por-que-usarlo"
-    },
-    {
+    "title": "Especial 'Resumen de 2023'",
+    "description": "Desarrollo de una herramienta simulando una Inteligencia Artificial donde mostramos los eventos más destacados publicados en El País en 2023.",
+    "authors": "Equipo de Lab&Diseño de El País",
+    "medio": "El País",
+    "fecha": "27/12/2023",
+    "link": "https://elpais.com/especiales/2023/resumen-anual/",
+    "image": ""
+  },
+  {
     "id": 7,
-    "title": "Guía rápida de CSS Grid para principiantes",
-    "description": "CSS Grid facilita la creación de layouts complejos y responsivos...",
-    "author": "Pedro Sánchez",
-    "medio": "20minutos",
-    "fecha": "2023-10-07",
-    "link": "https://20minutos.es/guia-css-grid-principiantes"
-    },
-    {
+    "title": "Especial 'Resumen de 2022'",
+    "description": "Desarrollo de una visual interactiva simulando TikTok con vídeos de los eventos más destacados publicados en El País en 2022.",
+    "authors": "Equipo de Lab&Diseño de El País",
+    "medio": "El País",
+    "fecha": "24/12/2022",
+    "link": "https://elpais.com/especiales/2022/resumen-anual/",
+    "image": ""
+  },
+  {
     "id": 8,
-    "title": "Cómo mejorar el SEO técnico de tu sitio web",
-    "description": "El SEO técnico es clave para que los motores de búsqueda indexen tu web correctamente...",
-    "author": "María Gómez",
-    "medio": "Cinco Días",
-    "fecha": "2023-10-08",
-    "link": "https://cincodias.elpais.com/mejorar-seo-tecnico-sitio-web"
-    },
-    {
+    "title": "Cachalotes en el Mediterráneo: tras el rastro sonoro del gigante marino",
+    "description": "Apertura fija hasta clicar botón (para sonido), juegos con vídeos y audios y composición de imágenes con animación.",
+    "authors": "Manuel Planelles, Brenda Valverde, Carlos Muñoz",
+    "medio": "El País",
+    "fecha": "24/12/2021",
+    "link": "https://elpais.com/clima-y-medio-ambiente/2023-01-29/cachalotes-en-el-mediterraneo-tras-el-rastro-sonoro-del-gigante-marino.html",
+    "image": ""
+  },
+  {
     "id": 9,
-    "title": "Automatización de tareas con Node.js",
-    "description": "Node.js permite automatizar procesos repetitivos y mejorar la productividad...",
-    "author": "Javier Martín",
-    "medio": "El Español",
-    "fecha": "2023-10-09",
-    "link": "https://elespanol.com/automatizacion-tareas-nodejs"
-    },
-    {
+    "title": "Más malo imposible: así es el villano perfecto",
+    "description": "Desarrollo de scroll vertical cambiando imágenes superpuestas (y fijando dicha imagen en la parte superior en móvil).",
+    "authors": "Tommaso Koch",
+    "medio": "El País",
+    "fecha": "30/06/2023",
+    "link": "https://elpais.com/cultura/2023-06-30/mas-malo-imposible-asi-es-el-villano-perfecto.html",
+    "image": ""
+  },
+  {
     "id": 10,
-    "title": "Diseño responsivo: claves para adaptarse a cualquier dispositivo",
-    "description": "El diseño responsivo asegura una experiencia óptima en móviles, tablets y ordenadores...",
-    "author": "Elena Navarro",
-    "medio": "La Vanguardia",
-    "fecha": "2023-10-10",
-    "link": "https://lavanguardia.com/diseno-responsivo-claves"
-    },
-    {
+    "title": "Bienvenidos al gran banquete de Veronés: recorra el monumental cuadro de ‘La Cena en Casa de Simón’",
+    "description": "Desarrollo de un scroll vertical donde, mientras aparecen tarjetas explicativas, hacemos zoom sobre diferentes partes del cuadro.",
+    "authors": "Ana Marcos",
+    "medio": "El País",
+    "fecha": "27/06/2025",
+    "link": "https://elpais.com/cultura/2025-06-27/bienvenidos-al-gran-banquete-de-verones-recorra-el-monumental-cuadro-de-la-cena-en-casa-de-simon.html",
+    "image": ""
+  },
+  {
     "id": 11,
-    "title": "Ventajas de usar frameworks modernos como Svelte",
-    "description": "Frameworks como Svelte simplifican el desarrollo y mejoran el rendimiento...",
-    "author": "Raúl Ortega",
-    "medio": "El Diario",
-    "fecha": "2023-10-11",
-    "link": "https://eldiario.es/ventajas-frameworks-modernos-svelte"
-    },
-    {
+    "title": "8-M: Lo que las mujeres ya no se callan",
+    "description": "Maquetación de apertura y del contenido (fondo, audios, ladillos)",
+    "authors": "Isabel Valdés",
+    "medio": "El País",
+    "fecha": "08/03/2025",
+    "link": "https://elpais.com/sociedad/dia-de-la-mujer/2025-03-08/8-m-lo-que-las-mujeres-ya-no-se-callan.html",
+    "image": ""
+  },
+  {
     "id": 12,
-    "title": "Buenas prácticas para la gestión de estados en aplicaciones web",
-    "description": "Una correcta gestión de estados evita errores y facilita el mantenimiento...",
-    "author": "Patricia Ramos",
-    "medio": "Expansión",
-    "fecha": "2023-10-12",
-    "link": "https://expansion.com/buenas-practicas-gestion-estados-web"
-    }
+    "title": "Cómo fabricar un escándalo político, mediático y judicial: Podemos y el ‘caso Neurona’",
+    "description": "Desarrollo de una visual explicativa con timeline, explicaciones y aplicación de transiciones en elementos para mostrar la apertura, cierre parcial y cierre total de los casos.",
+    "authors": "J. J. Gálvez, Manuel Viejo",
+    "medio": "El País",
+    "fecha": "15/12/2024",
+    "link": "https://elpais.com/espana/2024-12-15/como-fabricar-un-escandalo-politico-judicial-y-mediatico-podemos-y-el-caso-neurona.html",
+    "image": ""
+  },
+  {
+    "id": 13,
+    "title": "Todas las críticas de ‘Babelia’",
+    "description": "Desarrollo de un buscador con distintos tipos de filtros (selectores, subselectores y texto con autocompletado) para encontrar las críticas publicadas en Babelia.",
+    "authors": "Equipo de Lab&Diseño y Babelia de El País",
+    "medio": "El País",
+    "fecha": "29/11/2024",
+    "link": "https://elpais.com/babelia/2024-11-29/todas-las-criticas-de-babelia.html",
+    "image": ""
+  },
+  {
+    "id": 14,
+    "title": "“Te hacen creer que lo mejor es contarlo, pero luego te abandonan”",
+    "description": "Maquetación de apertura y fondo con desarrollo de play/stop de vídeos en función de la aparición de los mismos en el viewport.",
+    "authors": "Jesús García Bueno",
+    "medio": "El País",
+    "fecha": "03/10/2024",
+    "link": "https://elpais.com/sociedad/2024-10-03/carta-de-una-victima-de-violacion-te-hacen-creer-que-lo-mejor-es-contarlo-pero-luego-te-abandonan.html",
+    "image": ""
+  },
+  {
+    "id": 15,
+    "title": "Cinco claves para entender las criptomonedas",
+    "description": "Desarrollo de una transición para la apertura y uso de la media query para no mostrar la transición para lo prefers-reduced-motion: reduce.",
+    "authors": "Álvaro Sánchez",
+    "medio": "El País",
+    "fecha": "17/09/2024",
+    "link": "https://cincodias.elpais.com/criptoactivos/2024-09-17/las-criptomonedas-en-cinco-claves-que-son-desde-cuando-existen.html",
+    "image": ""
+  },
+  {
+    "id": 16,
+    "title": "Así se ha acelerado la carrera para conseguir energía con la fusión nuclear",
+    "description": "Maquetación de apertura con un carrusel de imágenes en bucle con lógica propia.",
+    "authors": "J. A. Unión",
+    "medio": "El País",
+    "fecha": "08/09/2024",
+    "link": "https://elpais.com/eps/2024-09-08/instrucciones-para-fabricar-el-sol-asi-se-ha-acelerado-la-carrera-para-conseguir-energia-con-la-fusion-nuclear.html",
+    "image": ""
+  },
+  {
+    "id": 17,
+    "title": "Todas las manos que sostuvieron a Malak y a José",
+    "description": "Navegación por imágenes donde jugamos con el zoom para mostrar diferentes partes de las mismas y uso del clip-path para crear un efecto de máscara.",
+    "authors": "J. A. Unión",
+    "medio": "El País",
+    "fecha": "30/03/2025",
+    "link": "https://elpais.com/eps/2025-03-30/todas-las-manos-que-sostuvieron-a-malak-y-a-jose.html",
+    "image": ""
+  },
+  {
+    "id": 18,
+    "title": "Garoña: así se desmantela una central nuclear",
+    "description": "Scroll de apertura con una imagen fija en la parte inferior del viewport y scrolling vertical y horizontal con vídeos e imágenes.",
+    "authors": "Manuel Planelles, Brenda Valverde, José A. Álvarez",
+    "medio": "El País",
+    "fecha": "02/11/2023",
+    "link": "https://elpais.com/clima-y-medio-ambiente/2023-11-02/garona-asi-se-desmantela-una-central-nuclear.html",
+    "image": ""
+  },
+  {
+    "id": 19,
+    "title": "Guía definitiva para no perderse en el Broadway de Madrid",
+    "description": "Desarrollo de una apertura con un pasa-pasa de imágenes en bucle y maquetación de ladillos, fototextos y tablas con un sentido de conjunto.",
+    "authors": "Raquel Vidales",
+    "medio": "El País",
+    "fecha": "01/12/2023",
+    "link": "https://elpais.com/cultura/2023-12-01/que-musical-voy-a-ver-guia-definitiva-para-no-perderse-en-el-broadway-de-madrid.html",
+    "image": ""
+  },
+  {
+    "id": 20,
+    "title": "Así se derrite un salario mínimo interprofesional en un mes",
+    "description": "Desarrollo de un calendario y una calculadora en scroll con una visual simulando el ticket de un supermercado.",
+    "authors": "Emilio Sánchez Hidalgo",
+    "medio": "El País",
+    "fecha": "09/07/2023",
+    "link": "https://elpais.com/economia/2023-07-09/asi-se-derrite-un-salario-minimo-interprofesional-en-un-mes.html",
+    "image": ""
+  },
+  {
+    "id": 21,
+    "title": "Hechos probados | ¿Va bien o mal la economía? La recesión que no llegó a un país con más empleo que nunca",
+    "description": "Maquetación de ladillos y despieces con un sentido de conjunto.",
+    "authors": "José Manuel Romero",
+    "medio": "El País",
+    "fecha": "07/07/2023",
+    "link": "https://elpais.com/espana/elecciones-generales/2023-07-07/hechos-probados-va-bien-o-mal-la-economia-la-recesion-que-no-llego-a-un-pais-con-mas-empleo-que-nunca.html",
+    "image": ""
+  },
+  {
+    "id": 22,
+    "title": "Así será el nuevo complejo El Campín",
+    "description": "Desarollo de una apertura en scroll donde vamos descubriendo la imagen del nuevo estadio El Campín de Bogotá (jugando con los márgenes de apertura y contenido durante el scroll).",
+    "authors": "Juan Diego Quesada",
+    "medio": "El País",
+    "fecha": "07/06/2023",
+    "link": "https://elpais.com/america-colombia/2023-06-07/bogota-dira-adios-al-viejo-el-campin-para-inaugurar-un-moderno-estadio-y-un-complejo-cultural-y-de-ocio-en-los-alrededores.html",
+    "image": ""
+  },
+  {
+    "id": 23,
+    "title": "Diario de un cura pederasta",
+    "description": "Maquetación de: i) apertura con frases que se van escribiendo y termina con la apertura real, ii) una visual simulando un archivo Word, iii) declaraciones (también simulando un archivo Word), iv) líneas indicando imágenes (en posiciones absolutas jugando con la posición de las mismas) y v) visual de un calendario con fondos relativos en función del tema del diario.",
+    "authors": "Julio Núñez",
+    "medio": "El País",
+    "fecha": "30/04/2023",
+    "link": "https://elpais.com/sociedad/2023-04-30/diario-de-un-cura-pederasta.html",
+    "image": ""
+  },
+  {
+    "id": 24,
+    "title": "Joyas ocultas del Palacio Real de Madrid",
+    "description": "Maquetación de apertura donde mostramos varias imágenes con delay y desarrollo de una lógica visual distinta para mostrar las imágenes de los archivos para dispositivos manejados con teclado y dispositivos táctiles.",
+    "authors": "Manuel Morales, Samuel Sánchez",
+    "medio": "El País",
+    "fecha": "30/01/2024",
+    "link": "https://elpais.com/cultura/2024-01-30/joyas-ocultas-del-palacio-real-de-madrid.html",
+    "image": ""
+  },
+  {
+    "id": 25,
+    "title": "Vidas marcadas por el volcán: La Palma, año uno",
+    "description": "Desarrollo de un especial a un scroll. Nos movemos a partir de las flechas (teclado o ratón) en vertical y horizontal.",
+    "authors": "Equipo de Lab&Diseño y Vídeo de El País",
+    "medio": "El País",
+    "fecha": "17/09/2022",
+    "link": "https://elpais.com/sociedad/2022-09-17/la-palma-ano-uno-vidas-marcadas-por-el-volcan.html",
+    "image": ""
+  },
+  {
+    "id": 26,
+    "title": "El infierno que se multiplica tras el asesinato de una hija",
+    "description": "Maquetación de ladillos, tablas y citas con un sentido de conjunto.",
+    "authors": "Isabel Valdés",
+    "medio": "El País",
+    "fecha": "02/10/2022",
+    "link": "https://elpais.com/sociedad/2022-10-02/el-infierno-que-se-multiplica-tras-el-asesinato-de-una-hija.html",
+    "image": ""
+  },
+  {
+    "id": 27,
+    "title": "¿Quién va a ganar el Mundial de Qatar? Simulador y pronóstico actualizado de cada selección",
+    "description": "Maquetación de la tabla y del selector de días.",
+    "authors": "Borja Andrino, Kiko Llaneras",
+    "medio": "El País",
+    "fecha": "20/11/2022",
+    "link": "https://elpais.com/deportes/mundial-futbol/2022-11-20/quien-va-a-ganar-el-mundial-de-qatar-simulador-y-pronostico-actualizado-de-cada-seleccion.html",
+    "image": ""
+  },
+  {
+    "id": 28,
+    "title": "La selección de España en el Mundial de Qatar",
+    "description": "Maquetación de la página (ladillos, tablas y fototextos) y desarrollo del gráfico de la trayectoria en los mundiales.",
+    "authors": "El País",
+    "medio": "El País",
+    "fecha": "11/11/2022",
+    "link": "https://elpais.com/deportes/mundial-futbol/2022-11-11/la-seleccion-de-espana-en-el-mundial-de-qatar.html",
+    "image": ""
+  },
+  {
+    "id": 29,
+    "title": "Escaños por provincia (Elecciones Generales Congreso 2023)",
+    "description": "Desarrollo del cartograma y el tooltip asociado a cada cuadrado del mismo.",
+    "authors": "El País",
+    "medio": "El País",
+    "fecha": "23/07/2023",
+    "link": "https://elpais.com/espana/elecciones/generales/escanos-por-provincia/",
+    "image": ""
+  },
+  {
+    "id": 30,
+    "title": "De C. Tangana a Josie: 72 estrellas celebran los 10 años de ICON",
+    "description": "Maquetación de apertura con superposición de imágenes con traslación lateral y delay y desarrollo de carruseles de imágenes con distinta lógica en función de si se trata de un dispositivo táctil o no.",
+    "authors": "ICON",
+    "medio": "El País",
+    "fecha": "03/11/2023",
+    "link": "https://elpais.com/icon/aniversario/2023-11-03/una-superproduccion-y-72-estrellas-10-anos-construyendo-icon.html",
+    "image": ""
+  },
+  {
+    "id": 31,
+    "title": "¿Quieres saber qué implica el auge de los robots para los medios? El #periodismo en la era de la inteligencia artificial (Vol. I)",
+    "description": "Análisis periodístico propio tras acudir al International Journalism Festival de Perugia.",
+    "authors": "Vocento Media Lab",
+    "medio": "Vocento Media Lab",
+    "fecha": "23/06/2017",
+    "link": "https://medium.com/@VocentoLab/quieres-saber-qu%C3%A9-implica-el-auge-de-los-robots-para-los-medios-73acfb908615",
+    "image": ""
+  },
+  {
+    "id": 32,
+    "title": "infoPlayas e infoEsquí, dos experimentos de “periodismo-robot” para los lectores",
+    "description": "Creación de las bases de datos para ambas herramientas.",
+    "authors": "Vocento Media Lab",
+    "medio": "Vocento Media Lab",
+    "fecha": "27/03/2017",
+    "link": "https://medium.com/@VocentoLab/infoplayas-e-infoesqu%C3%AD-dos-experimentos-de-periodismo-robot-para-los-lectores-53f42514d533",
+    "image": ""
+  },
+  {
+    "id": 33,
+    "title": "¿Qué retos plantea el “periodismo-robot”? Revisamos los desafíos para la Prensa del auge de la inteligencia artificial (Vol. II)",
+    "description": "Análisis periodístico propio tras acudir al International Journalism Festival de Perugia.",
+    "authors": "Vocento Media Lab",
+    "medio": "Vocento Media Lab",
+    "fecha": "06/10/2017",
+    "link": "https://medium.com/@VocentoLab/qu%C3%A9-retos-plantea-el-periodismo-robot-5bade38b19f7",
+    "image": ""
+  },
+  {
+    "id": 34,
+    "title": "La condena de la leche",
+    "description": "Trabajo final de máster. Radiografía de la industria láctea en España y su situación en aquel entonces.",
+    "authors": "Carlos Muñoz, Lorenzo Pirovano",
+    "medio": "El Mundo",
+    "fecha": "11/01/2017",
+    "link": "https://www.elmundo.es/grafico/economia/2017/01/11/5864fa9422601d9a638b45c7.html",
+    "image": ""
+  },
+  {
+    "id": 35,
+    "title": "Doñana se asfixia pero sigue sin ser un tema político",
+    "description": "Desarrollo de visualizaciones estáticas (barras apiladas y stacked area)",
+    "authors": "Antonio Villareal, Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "19/09/2016",
+    "link": "https://www.elespanol.com/ciencia/medio-ambiente/20160919/156735064_0.html",
+    "image": ""
+  },
+  {
+    "id": 36,
+    "title": "Restaurantes y hoteles de lujo: las vidas de Rato y Blesa con las tarjetas 'black'",
+    "description": "Análisis de los gastos realizados por Rato y Blesa y visualizaciones (tree map y mapa de calor).",
+    "authors": "Alba Martín, Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "24/09/2016",
+    "link": "https://www.elespanol.com/espana/20160924/157984201_0.html",
+    "image": ""
+  },
+  {
+    "id": 37,
+    "title": "De mediana edad y en época vacacional: así es el perfil de los desaparecidos en España",
+    "description": "Análisis de datos y visualizaciones estáticas (barras, mapas y tabla con comentarios).",
+    "authors": "Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "09/09/2016",
+    "link": "https://www.elespanol.com/reportajes/grandes-historias/20160909/154235415_0.html",
+    "image": ""
+  },
+  {
+    "id": 38,
+    "title": "El 75% de las muertes por terremoto en la UE ocurren en Italia",
+    "description": "Análisis de datos y visualizaciones (mapa con QGIS y gráfico de evolución).",
+    "authors": "Carlos Muñoz, Alba Martín, Ainhoa Iriberri",
+    "medio": "El Español",
+    "fecha": "25/08/2016",
+    "link": "https://www.elespanol.com/mundo/europa/20160825/150485516_0.html",
+    "image": ""
+  },
+  {
+    "id": 39,
+    "title": "Bolt y la historia: la evolución de los récords en 100 y 200",
+    "description": "Análisis de datos y visualizaciones (gráficos de evolución).",
+    "authors": "Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "14/08/2016",
+    "link": "https://www.elespanol.com/deportes/juegos-olimpicos/20160814/147735292_0.html",
+    "image": ""
+  },
+  {
+    "id": 40,
+    "title": "De Beamon a Olizarenko: la obsesión por el récord",
+    "description": "Análisis de datos y visualizaciones estáticas con comentarios (Adobe Illustrator).",
+    "authors": "Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "11/08/2016",
+    "link": "https://www.elespanol.com/deportes/20160811/146986186_0.html",
+    "image": ""
+  },
+  {
+    "id": 41,
+    "title": "Así era la España del 18 de julio en 18 datos",
+    "description": "Análisis de datos y visualizaciones estáticas.",
+    "authors": "Carlos Muñoz, Patricia López",
+    "medio": "El Español",
+    "fecha": "15/07/2016",
+    "link": "https://www.elespanol.com/reportajes/20160715/140236944_0.html",
+    "image": ""
+  },
+  {
+    "id": 42,
+    "title": "El Congreso no rejuvenece en la época de la nueva política",
+    "description": "Análisis de datos y gráficos (de barras, de barras con cuadrados jugando con la opacidad y tablas).",
+    "authors": "Carlos Muñoz",
+    "medio": "El Español",
+    "fecha": "22/07/2016",
+    "link": "https://www.elespanol.com/espana/politica/20160722/141986627_0.html",
+    "image": ""
+  },
+  {
+    "id": 43,
+    "title": "Las mujeres ya no pasean por el campo español",
+    "description": "Análisis de datos, redacción del artículo y visualizaciones.",
+    "authors": "Carlos Muñoz",
+    "medio": "Apuntes de Demografía",
+    "fecha": "27/04/2022",
+    "link": "https://apuntesdedemografia.com/2022/04/27/las-mujeres-ya-no-pasean-por-el-campo-espanol/",
+    "image": ""
+  },
+  {
+    "id": 44,
+    "title": "Los retos del Alzheimer",
+    "description": "Desarrollo de visualizaciones interactivas (gráfico de evolución y mapa con navegación temporal).",
+    "authors": "Grupo de Población (CSIC)",
+    "medio": "Envejecimiento en Red",
+    "fecha": "21/09/2021",
+    "link": "https://envejecimientoenred.es/los-retos-del-alzheimer/",
+    "image": ""
+  },
+  {
+    "id": 45,
+    "title": "Las plazas concertadas en las residencias de personas mayores en España",
+    "description": "Análisis de datos, redacción del artículo y desarrollo de mapa interactivo.",
+    "authors": "Grupo de Población (CSIC)",
+    "medio": "Envejecimiento en Red",
+    "fecha": "15/10/2021",
+    "link": "https://envejecimientoenred.es/las-plazas-concertadas-en-las-residencias-de-personas-mayores-en-espana/",
+    "image": ""
+  },
+  {
+    "id": 46,
+    "title": "La brecha digital por edad: los mayores continúan reduciéndola",
+    "description": "Análisis de datos, redacción del artículo y desarrollo de visualizaciones interactivas (gráfico de evolcuón, de barras apiladas y de puntos) con animación.",
+    "authors": "Grupo de Población (CSIC)",
+    "medio": "Envejecimiento en Red",
+    "fecha": "16/11/2021",
+    "link": "https://envejecimientoenred.es/la-brecha-digital-por-edad-los-mayores-continuan-reduciendola/",
+    "image": ""
+  },
+  {
+    "id": 47,
+    "title": "Un perfil de las personas mayores en España, 2022. Indicadores estadísticos básicos",
+    "description": "Desarrollo de las visualizaciones interactivas del informe.",
+    "authors": "Grupo de Población (CSIC)",
+    "medio": "Envejecimiento en Red",
+    "fecha": "28/09/2022",
+    "link": "https://envejecimientoenred.csic.es/un-perfil-de-las-personas-mayores-en-espana-2022-indicadores-estadisticos-basicos/",
+    "image": ""
+  },
+  {
+    "id": 48,
+    "title": "Todas las muertes de la pandemia",
+    "description": "Desarrollo de contador de apertura y de las visualizaciones interactivas de los bloques",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "17/12/2020",
+    "link": "https://www.elconfidencial.com/espana/2020-12-17/muertes-pandemia-coronavirus_2866219/",
+    "image": ""
+  },
+  {
+    "id": 49,
+    "title": "48 horas con un medidor de CO2",
+    "description": "Desarrollo de gráficos de evolución y del scroll explicativo con un gráfico con traslación vertical durante el scroll con tarjetas y su reflejo en horizontal en la parte superior del viewport.",
+    "authors": "Antonio Villareal, varios autores",
+    "medio": "El Confidencial",
+    "fecha": "18/11/2020",
+    "link": "https://www.elconfidencial.com/tecnologia/ciencia/2020-11-18/covid-19-medidor-co2-48-horas_2836300/",
+    "image": ""
+  },
+  {
+    "id": 50,
+    "title": "El alquiler que nos deja la pandemia",
+    "description": "Escrapeo durante semanas de los anuncios de Idealista, análisis de los datos obtenidos y desarrollo de las visualizaciones interactivas.",
+    "authors": "María Zuil, varios autores",
+    "medio": "El Confidencial",
+    "fecha": "21/06/2020",
+    "link": "https://www.elconfidencial.com/vivienda/2020-06-21/un-60-mas-anuncios-pero-mismos-precios-asi-ha-cambiado-la-pandemia-el-alquiler_2645771/",
+    "image": ""
+  },
+  {
+    "id": 51,
+    "title": "Alerta temprana: así se está moviendo el virus",
+    "description": "Desarrollo de visualizaciones interactivas (incluido un mapa en grid con las gráficas de evolución de cada provincia).",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "18/07/2020",
+    "link": "https://www.elconfidencial.com/tecnologia/ciencia/2020-07-18/covid-19-rebrotes-provincias_2685656/",
+    "image": ""
+  },
+  {
+    "id": 52,
+    "title": "",
+    "description": "",
+    "authors": "",
+    "medio": "El Confidencial",
+    "fecha": "26/06/2021",
+    "link": "https://www.elconfidencial.com/espana/2021-06-26/objetivo-70-la-inmunidad-de-rebano-y-el-final-de-la-pandemia-en-espana_3148283/",
+    "image": ""
+  },
+  {
+    "id": 53,
+    "title": "Objetivo 70%: la inmunidad de rebaño y el final de la pandemia en España",
+    "description": "Desarrollo de la animación de apertura y de la visualización en scroll con puntos (con opacidad o no en función de los enfermos por Covid).",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "06/06/2021",
+    "link": "https://www.elconfidencial.com/espana/2021-06-06/gobierno-preguntas-congreso-senado-partidos_3116691/",
+    "image": ""
+  },
+  {
+    "id": 54,
+    "title": "Más allá de la pregunta de Vox por el 'popper': ¿sirve para algo insistir al Gobierno?",
+    "description": "Escrapeo semanal de las preguntas escritas en el Congreso de los Diputados que sirvió para elaborar este artículo.",
+    "authors": "Dario Ojeda, Carlos Muñoz",
+    "medio": "El Confidencial",
+    "fecha": "05/05/2021",
+    "link": "https://www.elconfidencial.com/espana/madrid/2021-05-05/resultados-elecciones-madrid-calle_3059039/",
+    "image": ""
+  },
+  {
+    "id": 55,
+    "title": "Los resultados de las elecciones en Madrid, calle a calle: ¿a quién han votado en tu barrio?",
+    "description": "Desarrollo del mapa (con Mapbox GL JS) y uso de la API de El Confidencial para obtener los resultados de las elecciones.",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "05/05/2021",
+    "link": "https://www.elconfidencial.com/espana/madrid/2021-05-05/elecciones-resultados-municipios-censo_3058391/",
+    "image": ""
+  },
+  {
+    "id": 56,
+    "title": "Los resultados de las elecciones en Madrid, municipio a municipio",
+    "description": "Desarrollo del mapa (con D3.js) y uso de la API de El Confidencial para obtener los resultados de las elecciones.",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "28/03/2021",
+    "link": "https://www.elconfidencial.com/economia/2021-03-28/espana-empleo-crisis-periferia-madrid-mundo-rural_3010420/",
+    "image": ""
+  },
+  {
+    "id": 57,
+    "title": "La España que creó empleo en la crisis: de la periferia de Madrid al mundo rural",
+    "description": "Uso de Mapshaper para cruzar los polígonos de las comarcas con los datos de afiliados por provincias.",
+    "authors": "Javier G. Jorrín, Dario Ojeda, Carlos Muñoz",
+    "medio": "El Confidencial",
+    "fecha": "14/03/2021",
+    "link": "https://www.elconfidencial.com/economia/2021-03-14/secuelas-un-ano-completo-pandemia-economica_2989571/",
+    "image": ""
+  },
+  {
+    "id": 58,
+    "title": "Panel económico",
+    "description": "Desarrollo de las visualizaciones interactivas de los bloques.",
+    "authors": "Varios autores",
+    "medio": "El Confidencial",
+    "fecha": "27/07/2020",
+    "link": "https://www.elconfidencial.com/economia/2020-07-27/macroeconomia-panel-analisis-crisis_2689911/",
+    "image": ""
+  }
 ]
