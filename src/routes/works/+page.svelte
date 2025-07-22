@@ -1,6 +1,16 @@
 <script>
   import posts from '$lib/data/articles.json';
 
+  const mediosOrder = [
+    "El País",
+    "Envejecimiento en Red",
+    "Apuntes de Demofrafía",
+    "El Confidencial",
+    "Vicento Media Lab",
+    "El Mundo",
+    "El Español"
+  ];
+
   const groupedPosts = posts.reduce((acc, post) => {
       const medio = post.medio;
       const [day, month, yearStr] = post.fecha.split('/');
@@ -10,6 +20,15 @@
       acc[medio][year].push(post);
       return acc;
   }, {});
+
+  function getOrderedMedios(grouped) {
+    const medios = Object.keys(grouped);
+    const ordered = mediosOrder.filter(m => medios.includes(m));
+    const rest = medios.filter(m => !mediosOrder.includes(m));
+    return [...ordered, ...rest];
+  }
+
+  $: orderedMedios = getOrderedMedios(groupedPosts);
 </script>
 
 <style>
@@ -81,44 +100,44 @@
     
     <div class="article-layout">
       <div class="articles-list">
-        {#each Object.keys(groupedPosts) as medio}
-          <section id={`medio-${medio}`}>
-          <h2>{medio}</h2>
-          {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
-            <article id={`medio-${medio}-year-${year}`}>
-              <h3>{year}</h3>
-              <ul>
-              {#each groupedPosts[medio][year] as post}
-                <li style="background: {post['destacado'] ? '#ffeeba' : 'transparent'}">
-                  <a href={post.link} style="text-decoration: none; color: inherit;">
-                    {post.title} - {post.author} - {post.content} - {post.fecha}
-                  </a>
-                </li>
-              {/each}
-              </ul>
-            </article>
-          {/each}
-            </section>
-          {/each}
+      {#each orderedMedios as medio}
+        <section id={`medio-${medio}`}>
+        <h2>{medio}</h2>
+        {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
+          <article id={`medio-${medio}-year-${year}`}>
+          <h3>{year}</h3>
+          <ul>
+            {#each groupedPosts[medio][year] as post}
+            <li style="background: {post['destacado'] ? '#ffeeba' : 'transparent'}">
+              <a href={post.link} style="text-decoration: none; color: inherit;">
+              {post.title} - {post.author} - {post.content} - {post.fecha}
+              </a>
+            </li>
+            {/each}
+          </ul>
+          </article>
+        {/each}
+        </section>
+      {/each}
       </div>
       
       <aside>
-        <nav>
+      <nav>
+        <ul>
+        {#each orderedMedios as medio}
+          <li>
+          <a href={`#medio-${medio}`}>{medio}</a>
           <ul>
-            {#each Object.keys(groupedPosts) as medio}
-              <li>
-                <a href={`#medio-${medio}`}>{medio}</a>
-                <ul>
-              {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
-                <li>
-                  <a href={`#medio-${medio}-year-${year}`}>{year}</a>
-                </li>
-              {/each}
-                </ul>
-              </li>
+            {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
+            <li>
+              <a href={`#medio-${medio}-year-${year}`}>{year}</a>
+            </li>
             {/each}
           </ul>
-        </nav>
+          </li>
+        {/each}
+        </ul>
+      </nav>
       </aside>
     </div>
 </div>
