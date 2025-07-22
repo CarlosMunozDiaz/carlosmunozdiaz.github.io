@@ -26,4 +26,8 @@ div.content {
     box-sizing: border-box;
     padding: 0em 1em;
 }
+
+div.content a.home-card:not(:last-child) {
+        margin-bottom: 30px;
+}
 /* FINAL ----- CONTENIDO GENÉRICO */

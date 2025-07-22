@@ -1,7 +1,21 @@
+<script>
+    import { onNavigate } from '$app/navigation';
+    import HomeCard from './components/HomeCard.svelte';
+
+    onNavigate((navigation) => {
+        if (!document.startViewTransition) return;
+
+        return new Promise((resolve) => {
+            document.startViewTransition(async () => {
+                resolve();
+                await navigation.complete;
+            });
+        });
+    });
+</script>
+
 <div class="content" view-transition-name="page">
-    <p>Estamos en la portada del blog. Accede a otras páginas desde la navegación superior.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.</p>
-    <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-    <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+    <HomeCard href="/works" title="Mis trabajos" description="Una colección de mis proyectos y trabajos realizados." image="/media/test.png"/>
+    <HomeCard href="/bitacora" title="Bitácora" description="Reflexiones y lecturas a lo largo del tiempo." image="/media/test.png"/>
+    <HomeCard href="/about-me" title="Sobre mí" description="Conoce más sobre mi recorrido laboral." image="/media/test.png"/>
 </div>
