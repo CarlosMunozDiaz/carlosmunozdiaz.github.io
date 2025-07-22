@@ -4,9 +4,9 @@
   const mediosOrder = [
     "El País",
     "Envejecimiento en Red",
-    "Apuntes de Demofrafía",
+    "Apuntes de Demografía",
     "El Confidencial",
-    "Vicento Media Lab",
+    "Vocento Media Lab",
     "El Mundo",
     "El Español"
   ];
