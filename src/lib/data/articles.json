@@ -7,7 +7,8 @@
     "medio": "El País",
     "fecha": "24/04/2025",
     "link": "https://elpais.com/internacional/2025-04-24/quien-es-quien-en-el-conclave-los-133-cardenales-que-elegiran-al-nuevo-papa.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "medio": "El País",
     "fecha": "02/05/2025",
     "link": "https://elpais.com/espana/2025-05-02/la-dana-mas-tragica-minuto-a-minuto-quien-hizo-que-mientras-valencia-se-inundaba.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "medio": "El País",
     "fecha": "05/11/2024",
     "link": "https://elpais.com/internacional/elecciones-usa/2024-11-05/calculadora-electoral-de-estados-unidos-que-estados-debe-asegurarse-el-ganador.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "medio": "El País",
     "fecha": "28/10/2024",
     "link": "https://elpais.com/internacional/elecciones-usa/2024-10-28/resultados-historicos-de-las-elecciones-presidenciales-en-estados-unidos.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "medio": "El País",
     "fecha": "21/05/2024",
     "link": "https://elpais.com/internacional/2024-05-21/detenciones-masivas-y-traslados-forzosos-asi-se-destierra-con-dinero-europeo-a-migrantes-en-el-norte-de-africa.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "medio": "El País",
     "fecha": "27/12/2023",
     "link": "https://elpais.com/especiales/2023/resumen-anual/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "medio": "El País",
     "fecha": "24/12/2022",
     "link": "https://elpais.com/especiales/2022/resumen-anual/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "medio": "El País",
     "fecha": "24/12/2021",
     "link": "https://elpais.com/clima-y-medio-ambiente/2023-01-29/cachalotes-en-el-mediterraneo-tras-el-rastro-sonoro-del-gigante-marino.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "medio": "El País",
     "fecha": "30/06/2023",
     "link": "https://elpais.com/cultura/2023-06-30/mas-malo-imposible-asi-es-el-villano-perfecto.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "medio": "El País",
     "fecha": "27/06/2025",
     "link": "https://elpais.com/cultura/2025-06-27/bienvenidos-al-gran-banquete-de-verones-recorra-el-monumental-cuadro-de-la-cena-en-casa-de-simon.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "medio": "El País",
     "fecha": "08/03/2025",
     "link": "https://elpais.com/sociedad/dia-de-la-mujer/2025-03-08/8-m-lo-que-las-mujeres-ya-no-se-callan.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
     "medio": "El País",
     "fecha": "15/12/2024",
     "link": "https://elpais.com/espana/2024-12-15/como-fabricar-un-escandalo-politico-judicial-y-mediatico-podemos-y-el-caso-neurona.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
     "medio": "El País",
     "fecha": "29/11/2024",
     "link": "https://elpais.com/babelia/2024-11-29/todas-las-criticas-de-babelia.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@
     "medio": "El País",
     "fecha": "03/10/2024",
     "link": "https://elpais.com/sociedad/2024-10-03/carta-de-una-victima-de-violacion-te-hacen-creer-que-lo-mejor-es-contarlo-pero-luego-te-abandonan.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@
     "medio": "El País",
     "fecha": "17/09/2024",
     "link": "https://cincodias.elpais.com/criptoactivos/2024-09-17/las-criptomonedas-en-cinco-claves-que-son-desde-cuando-existen.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@
     "medio": "El País",
     "fecha": "08/09/2024",
     "link": "https://elpais.com/eps/2024-09-08/instrucciones-para-fabricar-el-sol-asi-se-ha-acelerado-la-carrera-para-conseguir-energia-con-la-fusion-nuclear.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@
     "medio": "El País",
     "fecha": "30/03/2025",
     "link": "https://elpais.com/eps/2025-03-30/todas-las-manos-que-sostuvieron-a-malak-y-a-jose.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@
     "medio": "El País",
     "fecha": "02/11/2023",
     "link": "https://elpais.com/clima-y-medio-ambiente/2023-11-02/garona-asi-se-desmantela-una-central-nuclear.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@
     "medio": "El País",
     "fecha": "01/12/2023",
     "link": "https://elpais.com/cultura/2023-12-01/que-musical-voy-a-ver-guia-definitiva-para-no-perderse-en-el-broadway-de-madrid.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@
     "medio": "El País",
     "fecha": "09/07/2023",
     "link": "https://elpais.com/economia/2023-07-09/asi-se-derrite-un-salario-minimo-interprofesional-en-un-mes.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@
     "medio": "El País",
     "fecha": "07/07/2023",
     "link": "https://elpais.com/espana/elecciones-generales/2023-07-07/hechos-probados-va-bien-o-mal-la-economia-la-recesion-que-no-llego-a-un-pais-con-mas-empleo-que-nunca.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@
     "medio": "El País",
     "fecha": "07/06/2023",
     "link": "https://elpais.com/america-colombia/2023-06-07/bogota-dira-adios-al-viejo-el-campin-para-inaugurar-un-moderno-estadio-y-un-complejo-cultural-y-de-ocio-en-los-alrededores.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@
     "medio": "El País",
     "fecha": "30/04/2023",
     "link": "https://elpais.com/sociedad/2023-04-30/diario-de-un-cura-pederasta.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@
     "medio": "El País",
     "fecha": "30/01/2024",
     "link": "https://elpais.com/cultura/2024-01-30/joyas-ocultas-del-palacio-real-de-madrid.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@
     "medio": "El País",
     "fecha": "17/09/2022",
     "link": "https://elpais.com/sociedad/2022-09-17/la-palma-ano-uno-vidas-marcadas-por-el-volcan.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@
     "medio": "El País",
     "fecha": "02/10/2022",
     "link": "https://elpais.com/sociedad/2022-10-02/el-infierno-que-se-multiplica-tras-el-asesinato-de-una-hija.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@
     "medio": "El País",
     "fecha": "20/11/2022",
     "link": "https://elpais.com/deportes/mundial-futbol/2022-11-20/quien-va-a-ganar-el-mundial-de-qatar-simulador-y-pronostico-actualizado-de-cada-seleccion.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@
     "medio": "El País",
     "fecha": "11/11/2022",
     "link": "https://elpais.com/deportes/mundial-futbol/2022-11-11/la-seleccion-de-espana-en-el-mundial-de-qatar.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@
     "medio": "El País",
     "fecha": "23/07/2023",
     "link": "https://elpais.com/espana/elecciones/generales/escanos-por-provincia/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 30,
@@ -297,7 +326,8 @@
     "medio": "El País",
     "fecha": "03/11/2023",
     "link": "https://elpais.com/icon/aniversario/2023-11-03/una-superproduccion-y-72-estrellas-10-anos-construyendo-icon.html",
-    "image": ""
+    "image": "",
+    "destacado": true
   },
   {
     "id": 31,
@@ -307,7 +337,8 @@
     "medio": "Vocento Media Lab",
     "fecha": "23/06/2017",
     "link": "https://medium.com/@VocentoLab/quieres-saber-qu%C3%A9-implica-el-auge-de-los-robots-para-los-medios-73acfb908615",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 32,
@@ -317,7 +348,8 @@
     "medio": "Vocento Media Lab",
     "fecha": "27/03/2017",
     "link": "https://medium.com/@VocentoLab/infoplayas-e-infoesqu%C3%AD-dos-experimentos-de-periodismo-robot-para-los-lectores-53f42514d533",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 33,
@@ -327,7 +359,8 @@
     "medio": "Vocento Media Lab",
     "fecha": "06/10/2017",
     "link": "https://medium.com/@VocentoLab/qu%C3%A9-retos-plantea-el-periodismo-robot-5bade38b19f7",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 34,
@@ -337,7 +370,8 @@
     "medio": "El Mundo",
     "fecha": "11/01/2017",
     "link": "https://www.elmundo.es/grafico/economia/2017/01/11/5864fa9422601d9a638b45c7.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 35,
@@ -347,7 +381,8 @@
     "medio": "El Español",
     "fecha": "19/09/2016",
     "link": "https://www.elespanol.com/ciencia/medio-ambiente/20160919/156735064_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 36,
@@ -357,7 +392,8 @@
     "medio": "El Español",
     "fecha": "24/09/2016",
     "link": "https://www.elespanol.com/espana/20160924/157984201_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 37,
@@ -367,7 +403,8 @@
     "medio": "El Español",
     "fecha": "09/09/2016",
     "link": "https://www.elespanol.com/reportajes/grandes-historias/20160909/154235415_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 38,
@@ -377,7 +414,8 @@
     "medio": "El Español",
     "fecha": "25/08/2016",
     "link": "https://www.elespanol.com/mundo/europa/20160825/150485516_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 39,
@@ -387,7 +425,8 @@
     "medio": "El Español",
     "fecha": "14/08/2016",
     "link": "https://www.elespanol.com/deportes/juegos-olimpicos/20160814/147735292_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 40,
@@ -397,7 +436,8 @@
     "medio": "El Español",
     "fecha": "11/08/2016",
     "link": "https://www.elespanol.com/deportes/20160811/146986186_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 41,
@@ -407,7 +447,8 @@
     "medio": "El Español",
     "fecha": "15/07/2016",
     "link": "https://www.elespanol.com/reportajes/20160715/140236944_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 42,
@@ -417,7 +458,8 @@
     "medio": "El Español",
     "fecha": "22/07/2016",
     "link": "https://www.elespanol.com/espana/politica/20160722/141986627_0.html",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 43,
@@ -427,7 +469,8 @@
     "medio": "Apuntes de Demografía",
     "fecha": "27/04/2022",
     "link": "https://apuntesdedemografia.com/2022/04/27/las-mujeres-ya-no-pasean-por-el-campo-espanol/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 44,
@@ -437,7 +480,8 @@
     "medio": "Envejecimiento en Red",
     "fecha": "21/09/2021",
     "link": "https://envejecimientoenred.es/los-retos-del-alzheimer/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 45,
@@ -447,7 +491,8 @@
     "medio": "Envejecimiento en Red",
     "fecha": "15/10/2021",
     "link": "https://envejecimientoenred.es/las-plazas-concertadas-en-las-residencias-de-personas-mayores-en-espana/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 46,
@@ -457,7 +502,8 @@
     "medio": "Envejecimiento en Red",
     "fecha": "16/11/2021",
     "link": "https://envejecimientoenred.es/la-brecha-digital-por-edad-los-mayores-continuan-reduciendola/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 47,
@@ -467,7 +513,8 @@
     "medio": "Envejecimiento en Red",
     "fecha": "28/09/2022",
     "link": "https://envejecimientoenred.csic.es/un-perfil-de-las-personas-mayores-en-espana-2022-indicadores-estadisticos-basicos/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 48,
@@ -477,7 +524,8 @@
     "medio": "El Confidencial",
     "fecha": "17/12/2020",
     "link": "https://www.elconfidencial.com/espana/2020-12-17/muertes-pandemia-coronavirus_2866219/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 49,
@@ -487,7 +535,8 @@
     "medio": "El Confidencial",
     "fecha": "18/11/2020",
     "link": "https://www.elconfidencial.com/tecnologia/ciencia/2020-11-18/covid-19-medidor-co2-48-horas_2836300/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 50,
@@ -497,7 +546,8 @@
     "medio": "El Confidencial",
     "fecha": "21/06/2020",
     "link": "https://www.elconfidencial.com/vivienda/2020-06-21/un-60-mas-anuncios-pero-mismos-precios-asi-ha-cambiado-la-pandemia-el-alquiler_2645771/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 51,
@@ -507,7 +557,8 @@
     "medio": "El Confidencial",
     "fecha": "18/07/2020",
     "link": "https://www.elconfidencial.com/tecnologia/ciencia/2020-07-18/covid-19-rebrotes-provincias_2685656/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 52,
@@ -517,7 +568,8 @@
     "medio": "El Confidencial",
     "fecha": "26/06/2021",
     "link": "https://www.elconfidencial.com/espana/2021-06-26/objetivo-70-la-inmunidad-de-rebano-y-el-final-de-la-pandemia-en-espana_3148283/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 53,
@@ -527,7 +579,8 @@
     "medio": "El Confidencial",
     "fecha": "06/06/2021",
     "link": "https://www.elconfidencial.com/espana/2021-06-06/gobierno-preguntas-congreso-senado-partidos_3116691/",
-    "image": ""
+    "image": "",
+    "destacado": true
   },
   {
     "id": 54,
@@ -537,7 +590,8 @@
     "medio": "El Confidencial",
     "fecha": "05/05/2021",
     "link": "https://www.elconfidencial.com/espana/madrid/2021-05-05/resultados-elecciones-madrid-calle_3059039/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 55,
@@ -547,7 +601,8 @@
     "medio": "El Confidencial",
     "fecha": "05/05/2021",
     "link": "https://www.elconfidencial.com/espana/madrid/2021-05-05/elecciones-resultados-municipios-censo_3058391/",
-    "image": ""
+    "image": "",
+    "destacado": true
   },
   {
     "id": 56,
@@ -557,7 +612,8 @@
     "medio": "El Confidencial",
     "fecha": "28/03/2021",
     "link": "https://www.elconfidencial.com/economia/2021-03-28/espana-empleo-crisis-periferia-madrid-mundo-rural_3010420/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 57,
@@ -567,7 +623,8 @@
     "medio": "El Confidencial",
     "fecha": "14/03/2021",
     "link": "https://www.elconfidencial.com/economia/2021-03-14/secuelas-un-ano-completo-pandemia-economica_2989571/",
-    "image": ""
+    "image": "",
+    "destacado": false
   },
   {
     "id": 58,
@@ -577,6 +634,7 @@
     "medio": "El Confidencial",
     "fecha": "27/07/2020",
     "link": "https://www.elconfidencial.com/economia/2020-07-27/macroeconomia-panel-analisis-crisis_2689911/",
-    "image": ""
+    "image": "",
+    "destacado": true
   }
 ]
