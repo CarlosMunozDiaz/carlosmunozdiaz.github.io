@@ -7,7 +7,7 @@
     "medio": "",
     "date_publication": "23/07/2025",
     "date_read": "23/07/2025",
-    "link": "http://carlosmunozdiaz.com/bitacora/posts/aperturas/",
+    "link": "http://carlosmunozdiaz.com/bitacora/posts/aperturas",
     "image": "",
     "own_entry": true
   },
@@ -34,5 +34,17 @@
     "link": "https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 4,
+    "title": "Cuatro aperturas con scroll con imágenes alrededor de un elemento central",
+    "description": "Desarrollo de cuatro tipos de aperturas -posiciones centradas, posiciones aleatorias- en scroll con imágenes alrededor de un elemento central (un titular, por ejemplo).",
+    "authors": "Carlos Muñoz Díaz",
+    "medio": "",
+    "date_publication": "23/07/2025",
+    "date_read": "23/07/2025",
+    "link": "http://carlosmunozdiaz.com/bitacora/posts/test",
+    "image": "",
+    "own_entry": true
   }
 ]
