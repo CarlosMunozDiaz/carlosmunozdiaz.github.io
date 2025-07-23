@@ -22,5 +22,17 @@
     "link": "https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 3,
+    "title": "Dark Mode in CSS Guide",
+    "description": "¿Light or Dark? Esa es la cuestión. Este artículo aborda todas las posibilidades de implementar el modo oscuro en páginas web.",
+    "authors": "Adhuham",
+    "medio": "CSS-Tricks",
+    "date_publication": "12/08/2024",
+    "date_read": "20/09/2024",
+    "link": "https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/",
+    "image": "",
+    "own_entry": false
   }
 ]
