@@ -100,7 +100,7 @@
                 <h3>{month}</h3>
                   <ul>
                     {#each tree[year][month] as post}
-                      <li style="background: {post['own-entry'] ? '#ffeeba' : 'transparent'}">
+                      <li style="background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
                         <a href={post.link} style="text-decoration: none; color: inherit;">
                         {post.title} - {post.author} - {post.content} - {post.fecha}
                         </a>
