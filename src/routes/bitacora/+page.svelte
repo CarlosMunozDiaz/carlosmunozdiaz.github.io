@@ -4,9 +4,8 @@
   let tree = {};
 
   posts.forEach(post => {
-    const date = new Date(post.fecha);
-    const year = date.getFullYear();
-    const month = date.toLocaleString('default', { month: 'long' });
+      const [day, month, yearStr] = post.date_read.split('/');
+      const year = parseInt(yearStr, 10);
 
     if (!tree[year]) {
       tree[year] = {};
