@@ -8,7 +8,7 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-        padding: 16px 0;
+        padding: 32px 0;
         position: relative;
 
         box-shadow: 0 -4px 16px -4px rgba(0, 0, 0, 0.12);

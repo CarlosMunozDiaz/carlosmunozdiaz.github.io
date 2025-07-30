@@ -80,6 +80,15 @@
           top: 2rem;
           align-self: flex-start;
         }
+        aside nav > ul li {
+          border-bottom: 0px;
+        }
+        aside nav > ul li:not(:first-child) {
+          padding-top: 0.75rem;
+        }
+        aside nav > ul li a {
+          padding-bottom: 0px;
+        }
         aside nav ul,
         aside nav li {
           list-style: none;

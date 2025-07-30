@@ -77,32 +77,41 @@
       grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
     }
     aside {
-      display: block;
-      min-width: 220px;
-      margin-left: 2rem;
-      position: sticky;
-      top: 2rem;
-      align-self: flex-start;
-    }
-    aside nav ul,
-    aside nav li {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    aside nav li {
-      border-bottom: 1px solid #e0e0e0;
-      width: 100%;
-    }
-    aside nav a {
-      display: block;
-      padding: 0.5rem 0;
-      text-decoration: none;
-      color: inherit;
-    }
-    aside nav ul ul {
-      padding-left: 1rem;
-    }
+          display: block;
+          min-width: 220px;
+          margin-left: 2rem;
+          position: sticky;
+          top: 2rem;
+          align-self: flex-start;
+        }
+        aside nav > ul li {
+          border-bottom: 0px;
+        }
+        aside nav > ul li:not(:first-child) {
+          padding-top: 0.75rem;
+        }
+        aside nav > ul li a {
+          padding-bottom: 0px;
+        }
+        aside nav ul,
+        aside nav li {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        aside nav li {
+          border-bottom: 1px solid #e0e0e0;
+          width: 100%;
+        }
+        aside nav a {
+          display: block;
+          padding: 0.5rem 0;
+          text-decoration: none;
+          color: inherit;
+        }
+        aside nav ul ul {
+          padding-left: 1rem;
+        }
   }
 </style>
 

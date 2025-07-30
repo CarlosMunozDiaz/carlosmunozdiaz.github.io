@@ -4,7 +4,7 @@
         width: 100%;
 
         box-sizing: border-box;
-        padding: 16px 0px;
+        padding: 32px 0px;
         border-bottom: 2px solid #e0e0e0;
         box-shadow: 0 2px 8px -2px rgba(0,0,0,0.08);
 
