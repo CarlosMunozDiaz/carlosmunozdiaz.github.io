@@ -4,8 +4,8 @@
   let tree = {};
 
   posts.forEach(post => {
-      const [day, month, yearStr] = post.date_read.split('/');
-      const year = parseInt(yearStr, 10);
+    const [day, month, yearStr] = post.date_read.split('/');
+    const year = parseInt(yearStr, 10);
 
     if (!tree[year]) {
       tree[year] = {};
@@ -14,6 +14,20 @@
       tree[year][month] = [];
     }
     tree[year][month].push(post);
+  });
+
+  // Ordenar los posts dentro de cada mes por date_read (de más nuevo a más antiguo)
+  Object.keys(tree).forEach(year => {
+    Object.keys(tree[year]).forEach(month => {
+      tree[year][month].sort((a, b) => {
+        // date_read formato: "DD/MM/YYYY"
+        const [da, ma, ya] = a.date_read.split('/');
+        const [db, mb, yb] = b.date_read.split('/');
+        const dateA = new Date(`${ya}-${ma}-${da}`);
+        const dateB = new Date(`${yb}-${mb}-${db}`);
+        return dateB - dateA; // más nuevo primero
+      });
+    });
   });
 
   const years = Object.keys(tree).sort((a, b) => b - a);
@@ -109,7 +123,7 @@
                   {#each tree[year][month] as post}
                     <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
                       <div class="tarjeta-content">
-                        <h4>{post.title} {post.date_publication}</h4>
+                        <h4>{post.title} ({post.date_publication})</h4>
                         <p>{post.author}</p>
                         <p>{post.description}</p>
                       </div>

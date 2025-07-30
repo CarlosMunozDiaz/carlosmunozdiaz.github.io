@@ -18,6 +18,14 @@
       if (!acc[medio]) acc[medio] = {};
       if (!acc[medio][year]) acc[medio][year] = [];
       acc[medio][year].push(post);
+      // Ordenar los posts por fecha descendente (más nuevo primero)
+      acc[medio][year].sort((a, b) => {
+        const [da, ma, ya] = a.fecha.split('/').map(Number);
+        const [db, mb, yb] = b.fecha.split('/').map(Number);
+        const dateA = new Date(ya, ma - 1, da);
+        const dateB = new Date(yb, mb - 1, db);
+        return dateB - dateA;
+      });
       return acc;
   }, {});
 
@@ -114,7 +122,7 @@
               {#each groupedPosts[medio][year] as post}
                 <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
                   <div class="tarjeta-content">
-                    <h4>{post.title} {post.fecha}</h4>
+                    <h4>{post.title} ({post.fecha})</h4>
                     <p>{post.author}</p>
                     <p>{post.description}</p>
                   </div>
