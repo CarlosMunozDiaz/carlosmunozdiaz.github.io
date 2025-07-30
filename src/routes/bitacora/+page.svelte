@@ -30,18 +30,22 @@
         display: none;
       }
 
-      .posts-list ul,
-      .posts-list li {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+      .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; /* espacio entre tarjetas */
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
       }
 
-      .posts-list li {
-        width: 100%;
-        border-bottom: 1px solid #e0e0e0;
-        padding: 0.75rem 0;
-        box-sizing: border-box;
+      .tarjeta {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        /* No establecer altura fija */
       }
 
       @media (min-width: 768px) {
@@ -49,9 +53,11 @@
           flex-direction: row;
           align-items: flex-start;
         }
-        .posts-list {
-          flex: 1 1 0;
+
+        .contenedor {
+          grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
         }
+
         aside {
           display: block;
           min-width: 220px;
@@ -98,15 +104,15 @@
             ) as month}
               <article id={`year-${year}-month-${month}`}>
                 <h3>{month}</h3>
-                  <ul>
-                    {#each tree[year][month] as post}
-                      <li style="background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
-                        <a href={post.link} style="text-decoration: none; color: inherit;">
+                <div class="contenedor">
+                  {#each tree[year][month] as post}
+                    <div class="tarjeta" style="background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
+                      <a href={post.link} style="text-decoration: none; color: inherit;">
                         {post.title} - {post.author} - {post.content} - {post.fecha}
-                        </a>
-                      </li>
-                    {/each}
-                  </ul>
+                      </a>
+                    </div>
+                  {/each}
+                </div>
               </article>
             {/each}
           </section>

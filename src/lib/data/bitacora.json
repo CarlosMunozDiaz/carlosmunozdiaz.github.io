@@ -50,11 +50,11 @@
   {
     "id": 5,
     "title": "A Friendly Introduction to SVG",
-    "description": "Si un desarrollador frontend tiene problemas para entender cómo funciona SVG en HTML (o, simplemente, quiere empezar a comprender todo su potencial), este es su artículo.",
+    "description": "Si un desarrollador frontend tiene problemas para entender cómo funciona los gráficos vectoriales escalables (SVG, por sus siglas en inglés) en HTML (o, simplemente, quiere empezar a comprender todo su potencial), este es su artículo.",
     "authors": "Josh W. Comeau",
     "medio": "Smashing Magazine",
     "date_publication": "21/07/2025",
-    "date_read": "21/07/2025",
+    "date_read": "22/07/2025",
     "link": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/",
     "image": "",
     "own_entry": false
