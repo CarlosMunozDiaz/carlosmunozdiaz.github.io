@@ -58,5 +58,17 @@
     "link": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 6,
+    "title": "Responsive video is (almost) easy now",
+    "description": "¿Vídeos responsivos en tu página web y dejar de trabajar con clases CSS 'visible' y 'hidden' para diferentes tamaños? Este artículo explora cómo hacerlo.",
+    "authors": "Koos Looijesteijn",
+    "medio": "Koos Looijesteijn's Blog",
+    "date_publication": "20/07/2025",
+    "date_read": "30/07/2025",
+    "link": "https://www.kooslooijesteijn.net/blog/responsive-video-easy",
+    "image": "",
+    "own_entry": false
   }
 ]

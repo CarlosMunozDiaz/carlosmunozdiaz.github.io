@@ -91,8 +91,9 @@
 <div class="content" view-transition-name="page">
     <h1>BITÁCORA</h1>
     <p>Como buen cuaderno de bitácora, en este apartado incorporaré artículos periodísticos y de desarrollo web que puedan resultar interesantes para ampliar conocimiento.</p>
-    <p>Igualmente, incluiré <span style="background: #ffeeba;">entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
-    
+    <p>Incluiré <span style="background: #ffeeba;">entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
+    <p>Todas las entradas aquí mostradas se ordenan por fecha de creación (propias) o fecha de lectura (ajenas). En su tarjeta se mostrará la fecha de publicación.</p>
+
     <div class="bitacora-layout">
       <div class="posts-list">
         {#each years as year}
@@ -106,11 +107,13 @@
                 <h3>{month}</h3>
                 <div class="contenedor">
                   {#each tree[year][month] as post}
-                    <div class="tarjeta" style="background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
-                      <a href={post.link} style="text-decoration: none; color: inherit;">
-                        {post.title} - {post.author} - {post.content} - {post.fecha}
-                      </a>
-                    </div>
+                    <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
+                      <div class="tarjeta-content">
+                        <h4>{post.title} {post.date_publication}</h4>
+                        <p>{post.author}</p>
+                        <p>{post.description}</p>
+                      </div>
+                    </a>
                   {/each}
                 </div>
               </article>

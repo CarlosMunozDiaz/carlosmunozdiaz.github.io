@@ -112,11 +112,13 @@
             <h3>{year}</h3>
             <div class="contenedor">
               {#each groupedPosts[medio][year] as post}
-                <div class="tarjeta" style="background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
-                  <a href={post.link} style="text-decoration: none; color: inherit;">
-                    {post.title} - {post.author} - {post.content} - {post.fecha}
-                  </a>
-                </div>
+                <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
+                  <div class="tarjeta-content">
+                    <h4>{post.title} {post.fecha}</h4>
+                    <p>{post.author}</p>
+                    <p>{post.description}</p>
+                  </div>
+                </a>
               {/each}
             </div>
           </article>
