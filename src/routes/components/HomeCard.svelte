@@ -8,9 +8,15 @@
 <style>
   a.home-card {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    align-items: flex-start;
+    
+    box-sizing: border-box;
+    padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+
     text-decoration: none;
     color: inherit;
   }
@@ -19,15 +25,25 @@
     background-color: #f0f0f0;
   }
 
-  .hc_text {
-    margin-bottom: 10px;
+  .hc_text h2 {
+    margin-top: 0px;
   }
 
   .hc_image {
     width: 100%;
-    max-width: 420px;
     height: auto;
     border-radius: 4px;
+
+    mix-blend-mode: multiply;
+  }
+
+  @media (min-width: 768px) {
+    a.home-card {
+      flex-direction: row;
+    }
+    .hc_image {
+      max-width: 420px;
+    }
   }
 </style>
 

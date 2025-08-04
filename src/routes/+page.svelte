@@ -58,12 +58,12 @@
 
 <div class="content" view-transition-name="page">
     <div bind:this={card0} class="card-animate" class:visible={isVisible[0]}>
-        <HomeCard href="{base}/works" title="Mis trabajos" description="Una colección de mis proyectos y trabajos realizados." image="{base}/media/test.png"/>
+        <HomeCard href="{base}/works" title="Mis trabajos" description="Una colección de proyectos y trabajos realizados." image="{base}/media/elpais_1.png"/>
     </div>
     <div bind:this={card1} class="card-animate" class:visible={isVisible[1]}>
-        <HomeCard href="{base}/bitacora" title="Bitácora" description="Reflexiones y lecturas a lo largo del tiempo." image="{base}/media/test.png"/>
+        <HomeCard href="{base}/bitacora" title="Bitácora" description="Reflexiones y lecturas a lo largo del tiempo." image="{base}/media/instagram_4.jpg"/>
     </div>
     <div bind:this={card2} class="card-animate" class:visible={isVisible[2]}>
-        <HomeCard href="{base}/about-me" title="Sobre mí" description="Conoce más sobre mi recorrido laboral." image="{base}/media/test.png"/>
+        <HomeCard href="{base}/about-me" title="Sobre mí" description="Conoce más sobre mi recorrido laboral." image="{base}/media/instagram_3.jpg"/>
     </div>
 </div>

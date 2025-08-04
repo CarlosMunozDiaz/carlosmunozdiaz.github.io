@@ -20,7 +20,7 @@
         flex-direction: column;
         align-items: center;
 
-        width: 200px;
+        width: 240px;
     }
 
     .f_contacto .fc_title,
