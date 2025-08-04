@@ -68,8 +68,11 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* No establecer altura fija */
+    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.35);
+  }
+
+  .tarjeta:hover {
+    box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.25);
   }
 
   @media (min-width: 768px) {
