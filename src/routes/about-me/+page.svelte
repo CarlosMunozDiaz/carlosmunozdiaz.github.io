@@ -21,14 +21,18 @@
             if (!amTextEl || !amImageEl) return;
 
             const rect = amTextEl.getBoundingClientRect();
-            const windowHeight = window.innerHeight;
+            // Calcular el progreso de scroll entre el inicio y el final de .am_text
+            const start = rect.top;
+            const end = rect.bottom - amImageEl.offsetHeight;
+            const scrollY = window.innerHeight / 2; // punto de referencia (mitad de la pantalla)
 
-            // Calculate scroll progress within am_text block
-            const start = windowHeight * 0.2; // start animating when am_text is 20% into view
-            const end = windowHeight * 0.2 + rect.height - (amImageEl.offsetHeight * 1.5);
-            const scrolled = clamp(-rect.top + start, 0, end);
-
-            const progress = clamp(scrolled / end, 0, 1);
+            // Progreso: 0 cuando la parte superior de .am_text llega al centro de la pantalla,
+            // 1 cuando la parte inferior de .am_text (menos la altura de la imagen) llega al centro
+            const progress = clamp(
+                (scrollY - start) / (end - start),
+                0,
+                1
+            );
 
             rotation.set(progress * 360);
         }
