@@ -151,7 +151,7 @@
                   <div class="tarjeta-content">
                     <h4>{post.title} ({post.fecha})</h4>
                     <p>{post.author}</p>
-                    <p>{post.description}</p>
+                    <p><strong>¿Qué he aportado?</strong> {post.description}</p>
                   </div>
                 </a>
               {/each}
