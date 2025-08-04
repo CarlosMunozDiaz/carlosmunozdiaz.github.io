@@ -22,11 +22,12 @@
 
             const rect = amTextEl.getBoundingClientRect();
             // Calcular el progreso de scroll entre el inicio y el final de .am_text
-            const start = rect.top;
+            const offset = 180; // píxeles extra para retrasar el inicio
+            const start = rect.top + offset;
             const end = rect.bottom - amImageEl.offsetHeight;
             const scrollY = window.innerHeight / 2; // punto de referencia (mitad de la pantalla)
 
-            // Progreso: 0 cuando la parte superior de .am_text llega al centro de la pantalla,
+            // Progreso: 0 cuando la parte superior de .am_text (más offset) llega al centro de la pantalla,
             // 1 cuando la parte inferior de .am_text (menos la altura de la imagen) llega al centro
             const progress = clamp(
                 (scrollY - start) / (end - start),
@@ -124,7 +125,7 @@
             <div class="am_text_bio">
             <p>Soy Carlos Muñoz Díaz. Nací en Madrid en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
             <p>Estudié Periodismo en la Universidad Carlos III de Madrid entre 2011 y 2015 y, posteriormente, el Máster en Periodismo de Investigación, Datos y Visualización de Unidad Editorial entre 2015 y 2016.</p>
-            <p>Tras una serie de oportunidades laborales fallidas, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco. Una de las decisiones más acertadas de mi vida.</p>
+            <p>Tras encadenar varios contratos de prácticas y de autónomo a nivel periodístico, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco. Una de las decisiones más acertadas de mi vida.</p>
             <p>Desde entonces, he trabajado en consultoría (Raona), departamentos científicos (área de Demografía en el Centro de Ciencias Humanas y Sociales) y medios de comunicación (El Confidencial y El País).</p>
             <p>En la actualidad, mi trabajo abarca desde la maquetación de formatos especiales -con HTML, CSS y JS- pasando por el desarrollo de componentes interactivos como buscadores, modales o widgets electorales.</p>
             <p>Creo en el trabajo en equipo, en el aprendizaje continuo y en un trabajo siempre perfeccionista (sin ser yo nada perfecto, pero el intento es el intento).</p>
