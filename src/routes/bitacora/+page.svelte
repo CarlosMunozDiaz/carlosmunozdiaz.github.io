@@ -112,9 +112,14 @@
       padding: 0px;
     }
 
+    aside nav ul .year-item:not(:first-child) {
+      margin-top: 1rem;
+    }
+
     aside nav ul .month-item {
       padding: 0px;
       border-bottom: 1px solid #e0e0e0;
+      margin-top: 0.25rem;
     }
   }
 </style>

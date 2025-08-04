@@ -113,9 +113,14 @@
       padding: 0px;
     }
 
+    aside nav ul .media-item:not(:first-child) {
+      margin-top: 1rem;
+    }
+
     aside nav ul .year-item {
       padding: 0px;
       border-bottom: 1px solid #e0e0e0;
+      margin-top: .25rem;
     }
   }
 </style>
