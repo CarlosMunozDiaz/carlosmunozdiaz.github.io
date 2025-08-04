@@ -16,10 +16,12 @@
     import Footer from './components/Footer.svelte';
     import Header from './components/Header.svelte';
     import HeaderNavigation from './components/HeaderNavigation.svelte';
+	import ButtonUp from './components/ButtonUp.svelte';
 	let { children } = $props();
 </script>
 
 <Header />
 <HeaderNavigation />
 {@render children()}
+<ButtonUp />
 <Footer />
