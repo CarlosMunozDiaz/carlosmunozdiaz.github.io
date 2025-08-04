@@ -1,7 +1,7 @@
 /* CONTENIDO GENÉRICO */
 body {
     margin: 0;
-    contain: layout paint;
+    /*contain: layout paint;*/
 }
 
 body main.container {
