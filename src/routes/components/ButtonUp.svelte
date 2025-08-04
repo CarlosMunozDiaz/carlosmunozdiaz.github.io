@@ -7,15 +7,19 @@
     let scrollHandler;
 
     onMount(() => {
-        scrollHandler = () => {
+       function handleScroll() {
             show.set(window.scrollY > 2 * window.innerHeight);
-        };
-        window.addEventListener('scroll', scrollHandler);
-        scrollHandler();
-    });
+        }
 
-    onDestroy(() => {
-        window.removeEventListener('scroll', scrollHandler);
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        window.addEventListener('resize', handleScroll);
+
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', handleScroll);
+        };
     });
 </script>
 
@@ -30,7 +34,7 @@
 
 {#if $show}
     <div class="button-up">
-        <button on:click={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <button on:click={() => scrollTo({ top: 0, behavior: 'smooth' })}>
             Volver arriba
         </button>
     </div>
