@@ -41,7 +41,7 @@
     margin: 1rem auto;
   }
 
-  .bitacora-layout h2:first-child {
+  .bitacora-layout h2:first-of-type {
     margin-top: 0px;
   }
 

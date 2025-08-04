@@ -47,7 +47,7 @@
     margin: 1rem auto;
   }
 
-  .article-layout h2:first-child {
+  .article-layout h2:first-of-type {
     margin-top: 0px;
   }
 
