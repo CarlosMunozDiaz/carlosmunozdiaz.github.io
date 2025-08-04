@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Cuatro aperturas con scroll con imágenes alrededor de un elemento central",
-    "description": "Desarrollo de cuatro tipos de aperturas -posiciones centradas, posiciones aleatorias- en scroll con imágenes alrededor de un elemento central (un titular, por ejemplo).",
+    "title": "Aperturas en scroll (I)",
+    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
     "authors": "Carlos Muñoz Díaz",
     "medio": "",
     "date_publication": "23/07/2025",
     "date_read": "23/07/2025",
-    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/aperturas",
+    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/apertura-scroll-1",
     "image": "",
     "own_entry": true
   },
@@ -37,18 +37,6 @@
   },
   {
     "id": 4,
-    "title": "Cuatro aperturas con scroll con imágenes alrededor de un elemento central",
-    "description": "Desarrollo de cuatro tipos de aperturas -posiciones centradas, posiciones aleatorias- en scroll con imágenes alrededor de un elemento central (un titular, por ejemplo).",
-    "authors": "Carlos Muñoz Díaz",
-    "medio": "",
-    "date_publication": "23/07/2025",
-    "date_read": "23/07/2025",
-    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/test",
-    "image": "",
-    "own_entry": true
-  },
-  {
-    "id": 5,
     "title": "A Friendly Introduction to SVG",
     "description": "Si un desarrollador frontend tiene problemas para entender cómo funciona los gráficos vectoriales escalables (SVG, por sus siglas en inglés) en HTML (o, simplemente, quiere empezar a comprender todo su potencial), este es su artículo.",
     "authors": "Josh W. Comeau",
@@ -60,7 +48,7 @@
     "own_entry": false
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Responsive video is (almost) easy now",
     "description": "¿Vídeos responsivos en tu página web y dejar de trabajar con clases CSS 'visible' y 'hidden' para diferentes tamaños? Este artículo explora cómo hacerlo.",
     "authors": "Koos Looijesteijn",
@@ -70,5 +58,41 @@
     "link": "https://www.kooslooijesteijn.net/blog/responsive-video-easy",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 6,
+    "title": "Aperturas en scroll (II)",
+    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "authors": "Carlos Muñoz Díaz",
+    "medio": "",
+    "date_publication": "23/07/2025",
+    "date_read": "23/07/2025",
+    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/apertura-scroll-2",
+    "image": "",
+    "own_entry": true
+  },
+  {
+    "id": 7,
+    "title": "Aperturas en scroll (III)",
+    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "authors": "Carlos Muñoz Díaz",
+    "medio": "",
+    "date_publication": "23/07/2025",
+    "date_read": "23/07/2025",
+    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/apertura-scroll-3",
+    "image": "",
+    "own_entry": true
+  },
+  {
+    "id": 8,
+    "title": "Aperturas en scroll (IV)",
+    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "authors": "Carlos Muñoz Díaz",
+    "medio": "",
+    "date_publication": "23/07/2025",
+    "date_read": "23/07/2025",
+    "link": "https://www.carlosmunozdiaz.es/bitacora/posts/apertura-scroll-4",
+    "image": "",
+    "own_entry": true
   }
 ]
