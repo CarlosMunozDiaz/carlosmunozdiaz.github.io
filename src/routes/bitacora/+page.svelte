@@ -68,6 +68,7 @@
   @media (min-width: 768px) {
     .bitacora-layout {
       flex-direction: row;
+      justify-content: space-between;
       align-items: flex-start;
     }
 

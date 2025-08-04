@@ -46,6 +46,10 @@
     gap: 2rem;
   }
 
+  .article-layout h2 {
+    margin-top: 0px;
+  }
+
   aside {
     display: none;
   }
@@ -70,6 +74,7 @@
   @media (min-width: 768px) {
     .article-layout {
       flex-direction: row;
+      justify-content: space-between;
       align-items: flex-start;
     }
     .contenedor {

@@ -50,6 +50,8 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        max-width: 840px;
+        margin: 0 auto;
     }
 
     @media (min-width: 900px) {
@@ -67,6 +69,9 @@
         }
         .am_text {
             flex: 1;
+        }
+        .am_text_bio p:first-child {
+            margin-top: 0;
         }
     }
 
@@ -101,8 +106,6 @@
 </style>
 
 <div class="content">
-    <h1>SOBRE MÍ</h1>
-    
     <div class="about-me">
         <div class="am_image" bind:this={amImageEl}>
             <img
@@ -115,7 +118,6 @@
         </div>
         <div class="am_text" bind:this={amTextEl}>
             <div class="am_text_bio">
-                <h3>Biografía</h3>
                 <p>Soy Carlos Muñoz Díaz. Nací en Madrid en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
                 <p>Estudié Periodismo en la Universidad Carlos III de Madrid entre 2011 y 2015 y, posteriormente, el Máster en Periodismo de Investigación, Datos y Visualización de Unidad Editorial entre 2015 y 2016.</p>
                 <p>Tras una serie de oportunidades laborales fallidos, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco.</p>

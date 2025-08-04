@@ -24,10 +24,6 @@ div.content {
     margin: 0 auto;
 
     box-sizing: border-box;
-    padding: 0em 1em;
-}
-
-div.content a.home-card:not(:last-child) {
-        margin-bottom: 30px;
+    padding: 1rem;
 }
 /* FINAL ----- CONTENIDO GENÉRICO */

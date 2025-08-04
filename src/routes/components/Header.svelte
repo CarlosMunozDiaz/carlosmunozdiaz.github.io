@@ -18,7 +18,7 @@
     .h_name {
         display: block;
         font-size: 2rem;
-        font-weight: 400;
+        font-weight: lighter;
         font-style: normal;
     } 
 

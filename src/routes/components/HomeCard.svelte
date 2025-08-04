@@ -21,7 +21,7 @@
     color: inherit;
 
     width: 100%;
-    max-width: 768px;
+    max-width: 820px;
     margin: 0 auto;
   }
 
