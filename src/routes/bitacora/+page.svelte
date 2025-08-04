@@ -41,7 +41,7 @@
     margin: 1rem auto;
   }
 
-  .bitacora-layout h2 {
+  .bitacora-layout h2:first-child {
     margin-top: 0px;
   }
 
@@ -163,16 +163,22 @@
         <ul>
           {#each years as year}
             <li class="year-item">
-              <a href={`#year-${year}`}>{year}</a>
+              <a href={`#year-${year}`} on:click|preventDefault={() => {
+                document.getElementById(`year-${year}`)?.scrollIntoView({ behavior: 'smooth' });
+                history.replaceState(null, '', `#year-${year}`);
+              }}>{year}</a>
               <ul>
-                {#each Object.keys(tree[year]).sort(
-                  (a, b) => 
-                    new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
-                ) as month}
-                  <li class="month-item">
-                    <a href={`#year-${year}-month-${month}`}>{month}</a>
-                  </li>
-                {/each}
+          {#each Object.keys(tree[year]).sort(
+            (a, b) => 
+              new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
+          ) as month}
+            <li class="month-item">
+              <a href={`#year-${year}-month-${month}`} on:click|preventDefault={() => {
+                document.getElementById(`year-${year}-month-${month}`)?.scrollIntoView({ behavior: 'smooth' });
+                history.replaceState(null, '', `#year-${year}-month-${month}`);
+              }}>{month}</a>
+            </li>
+          {/each}
               </ul>
             </li>
           {/each}

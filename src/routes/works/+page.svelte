@@ -44,9 +44,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin: 1rem auto;
   }
 
-  .article-layout h2 {
+  .article-layout h2:first-child {
     margin-top: 0px;
   }
 
@@ -163,14 +164,26 @@
         <ul>
         {#each orderedMedios as medio}
           <li class="media-item">
-          <a href={`#medio-${medio}`}>{medio}</a>
-          <ul>
-            {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
-            <li class="year-item">
-              <a href={`#medio-${medio}-year-${year}`}>{year}</a>
-            </li>
-            {/each}
-          </ul>
+            <a href={`#medio-${medio}`} on:click|preventDefault={() => {
+                const el = document.getElementById(`medio-${medio}`);
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                  history.replaceState(null, '', `#medio-${medio}`);
+                }
+            }}>{medio}</a>
+            <ul>
+              {#each Object.keys(groupedPosts[medio]).sort((a, b) => b - a) as year}
+              <li class="year-item">
+                <a href={`#medio-${medio}-year-${year}`} on:click|preventDefault={() => {
+                  const el = document.getElementById(`medio-${medio}-year-${year}`);
+                  if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                  history.replaceState(null, '', `#medio-${medio}-year-${year}`);
+                  }
+                }}>{year}</a>
+              </li>
+              {/each}
+            </ul>
           </li>
         {/each}
         </ul>
