@@ -118,17 +118,12 @@
         </div>
         <div class="am_text" bind:this={amTextEl}>
             <div class="am_text_bio">
-                <p>Soy Carlos Muñoz Díaz. Nací en Madrid en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
-                <p>Estudié Periodismo en la Universidad Carlos III de Madrid entre 2011 y 2015 y, posteriormente, el Máster en Periodismo de Investigación, Datos y Visualización de Unidad Editorial entre 2015 y 2016.</p>
-                <p>Tras una serie de oportunidades laborales fallidos, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco.</p>
-                <p>Una de las decisiones más acertadas de mi vida.</p>
-                <p>Desde marzo de 2020, trabajo como desarrollador web en el equipo de Formatos de El Confidencial, un medio de comunicación español.</p>
-                <p>Mi trabajo abarca desde la maquetación de formatos especiales, pasando por el desarrollo de componentes interactivos (como este buscador de centros educativos en España) hasta la visualización de datos.</p>
-                <p>¿Y qué tecnologías utilizo en el día a día? Para las maquetas, HTML, SCSS, Vanilla JS y Webpack/Vite; para la visualizaciones, D3 (y si toca algún mapita, también suelen entrar en escena D3+LeafletsJS, Mapbox GL JS, Mapshaper y/o QGIS -este último, en menor medida que Mapshaper-).</p>
-                <p>Aunque gran parte del tiempo la destine al desarrollo de lo citado en los dos párrafos anteriores, también suelo trabajar con NodeJS (para web scraping o APIs sencillas, por ejemplo) y R (para la manipulación y análisis de datos).</p>
-                <p>Como desarrollador también he trabajado en Raona, una consultora tecnológica. El día a día lo pasaba entre códigos de React, TypeScript y SharePoint Online.</p>
-                <p>De forma previa también trabajé como periodista de datos -como becario o como freelance- en diferentes medios de comunicación como El Español, Vocento Media Lab o el extinto Bez.</p>
-                <p>Creo firmemente en el trabajo en equipo y en el aprendizaje continuo. De hecho, en los próximos meses, mi objetivo es mejorar en el uso de patrones de diseño en mis códigos, R (me queda mucho por aprender a nivel de análisis y visualización), el uso de Adobe Illustrator para el desarrollo de infografías (junto a AI2HTML, por ejemplo) o el manejo del inglés hablado y escrito.</p>
+            <p>Soy Carlos Muñoz Díaz. Nací en Madrid en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
+            <p>Estudié Periodismo en la Universidad Carlos III de Madrid entre 2011 y 2015 y, posteriormente, el Máster en Periodismo de Investigación, Datos y Visualización de Unidad Editorial entre 2015 y 2016.</p>
+            <p>Tras una serie de oportunidades laborales fallidas, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco. Una de las decisiones más acertadas de mi vida.</p>
+            <p>Desde entonces, he trabajado en consultoría (Raona), departamentos científicos (área de Demografía en el Centro de Ciencias Humanas y Sociales) y medios de comunicación (El Confidencial y El País).</p>
+            <p>En la actualidad, mi trabajo abarca desde la maquetación de formatos especiales -con HTML, CSS y JS- pasando por el desarrollo de componentes interactivos como buscadores, modales o widgets electorales.</p>
+            <p>Creo en el trabajo en equipo, en el aprendizaje continuo y en un trabajo siempre perfeccionista (sin ser yo nada perfecto, pero el intento es el intento).</p>
             </div>
             <div class="am_text_trayectoria">
                 <h3>Trayectoria profesional</h3>
@@ -138,7 +133,7 @@
                         <p>Junio de 2022 – Actualidad<br>Maquetación web de formatos especiales y widgets electorales.</p>
                     </li>
                     <li>
-                        <h4>Analista y visualizador de datos – CSIC</h4>
+                        <h4>Analista y visualizador de datos – Consejo Superior de Investigaciones Científicas (CSIC)</h4>
                         <p>Julio 2021 – Junio 2022<br>Análisis de bases de datos demográficas y visualización interactiva de datos estadísticos.</p>
                     </li>
                     <li>
@@ -167,29 +162,43 @@
                 <h3>Formación académica</h3>
                 <ul>
                     <li>
-                    <h4>Grado Superior en Desarrollo de Aplicaciones Web</h4>
-                    <p>Instituto Clara del Rey (Madrid, España)<br>Septiembre 2017 – Junio 2019</p>
+                        <h4>Grado Superior en Desarrollo de Aplicaciones Web</h4>
+                        <p>Instituto Clara del Rey (Madrid, España)<br>Septiembre 2017 – Junio 2019</p>
                     </li>
                     <li>
-                    <h4>Máster en Periodismo de Investigación, Datos y Visualización</h4>
-                    <p>Universidad Rey Juan Carlos y Unidad Editorial (Madrid, España)<br>Septiembre 2015 – Junio 2016</p>
+                        <h4>Máster en Periodismo de Investigación, Datos y Visualización</h4>
+                        <p>Universidad Rey Juan Carlos y Unidad Editorial (Madrid, España)<br>Septiembre 2015 – Junio 2016</p>
                     </li>
                     <li>
-                    <h4>Grado en Periodismo</h4>
-                    <p>Universidad Carlos III de Madrid (Getafe, España)<br>Septiembre 2011 – Junio 2015</p>
+                        <h4>Grado en Periodismo</h4>
+                        <p>Universidad Carlos III de Madrid (Getafe, España)<br>Septiembre 2011 – Junio 2015</p>
                     </li>
                 </ul>
             </div>
             <div class="am_text_habilidades">
                 <h3>Habilidades técnicas</h3>
                 <ul>
-                    <li><strong>Lenguajes:</strong> JavaScript, HTML, SCSS, R</li>
-                    <li><strong>Frameworks y librerías:</strong> D3.js, Leaflet.js, Mapbox GL JS, tidyverse, plyr</li>
-                    <li><strong>Entornos y herramientas:</strong> Node.js, Babel, Webpack, Puppeteer</li>
-                    <li><strong>Manipulación y análisis de datos:</strong> Web scraping, tratamiento de datos con R, fusión de CSVs</li>
-                    <li><strong>Visualización de datos:</strong> Coropletas interactivas, tooltips personalizados, eventos en mapas</li>
-                    <li><strong>Geodatos y cartografía:</strong> Mapshaper, GeoJSON, TopoJSON, centroides, joins espaciales</li>
-                    <li><strong>Optimización:</strong> Simplificación de mapas, empaquetado eficiente, renderizado rápido</li>
+                    <li><strong>Lenguajes principales:</strong> HTML, CSS/SCSS, JavaScript</li>
+                    <li><strong>Otros lenguajes:</strong> Python, R</li>
+                    <li><strong>Diseño:</strong> Figma (conocimiento básico)</li>
+                    <li><strong>Frameworks y librerías:</strong> Svelte, React</li>
+                    <li><strong>Entornos y herramientas:</strong> Node.js, Webpack/Vite, consumo de APIs</li>
+                    <li><strong>Manipulación y análisis de datos:</strong> Web scraping (con Node.js, Python o desde el inspector), tratamiento de datos con R y Node.js</li>
+                    <li><strong>Visualización de datos:</strong> D3.js, Datawrapper y Vanilla JS (SVG y Canvas)</li>
+                    <li><strong>Visualización de mapas:</strong> Leaflet.js y Mapbox GL JS </li>
+                    <li><strong>Optimización de mapas:</strong> Mapshaper y Tippecanoe</li>
+                    <li><strong>Control de versiones:</strong> Git (software), GitHub</li>
+                    <li><strong>Optimización de archivos:</strong> Minificación de archivos, de imágenes (image-resize) o de vídeos (ffmpeg), empaquetado eficiente (Webpack, Vite)</li>
+                </ul>
+            </div>
+            <div class="am_text_habilidades_futuras">
+                <h3>¿Qué estoy mirando o quiero mirar para mejorar?</h3>
+                <ul>
+                    <li>Three.js y Blender (visualizaciones en tres dimensiones)</li>
+                    <li>Adobe Illustrator (para el desarrollo de infografías) junto a ai2html o ai2svelte</li>
+                    <li>Inteligencia Artificial (LLM, MCP)</li>
+                    <li>Inglés (hablado y escrito)</li>
+                    <li>Italiano (hablado y escrito)</li>
                 </ul>
             </div>
         </div>
