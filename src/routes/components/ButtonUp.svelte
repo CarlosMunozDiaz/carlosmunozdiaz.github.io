@@ -9,7 +9,7 @@
 
     onMount(() => {
        function handleScroll() {
-            show.set(window.scrollY > 2 * window.innerHeight);
+            show.set(window.scrollY > 1.5 * window.innerHeight);
         }
 
         window.addEventListener('scroll', handleScroll, { passive: true });
@@ -42,9 +42,7 @@
 </style>
 
 {#if $show}
-    <div class="button-up">
-        <button on:click={() => scrollTo({ top: 0, behavior: 'smooth' })} transition:fly={{ y: 100, duration: 2000 }}>
-            ☝️
-        </button>
-    </div>
+    <button class="button-up" on:click={() => scrollTo({ top: 0, behavior: 'smooth' })} transition:fly={{ y: 100, duration: 2000 }}>
+        ☝️
+    </button>
 {/if}
