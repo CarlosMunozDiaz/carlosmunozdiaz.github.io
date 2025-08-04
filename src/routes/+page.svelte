@@ -55,9 +55,15 @@
         transform: translateY(0);
     }
 
-    @medin (min-width: 768px) {
-        .card-animate {
-            margin-bottom: 3rem;
+    @media (min-width: 768px) {
+        .card-animate:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+        .card-animate:last-child {
+            margin-bottom: 2rem;
+        }
+        .card-animate:first-child {
+            margin-top: 2rem;
         }
     }   
 </style>

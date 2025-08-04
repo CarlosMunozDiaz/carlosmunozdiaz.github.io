@@ -45,6 +45,8 @@
   @media (min-width: 768px) {
     a.home-card {
       flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem 2rem;
       height: 340px;
     }
     .hc_image {
