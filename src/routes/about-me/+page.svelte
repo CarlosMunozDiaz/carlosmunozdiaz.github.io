@@ -1,9 +1,9 @@
 <script lang="ts">
+    import ButtonUp from '../components/ButtonUp.svelte';
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
     import { tweened } from 'svelte/motion';
     import { cubicOut } from 'svelte/easing';
-    import { writable } from 'svelte/store';
 
     // Store for rotation
     const rotation = tweened(0, { duration: 0, easing: cubicOut });
@@ -209,4 +209,6 @@
             </div>
         </div>
     </div>
+
+    <ButtonUp />
 </div>

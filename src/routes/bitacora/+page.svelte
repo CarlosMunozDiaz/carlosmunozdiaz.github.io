@@ -1,5 +1,6 @@
 <script>
-  import posts from '$lib/data/bitacora.json';
+    import ButtonUp from '../components/ButtonUp.svelte';
+    import posts from '$lib/data/bitacora.json';
 
   let tree = {};
 
@@ -190,4 +191,6 @@
       </nav>
     </aside>
   </div>
+
+  <ButtonUp />
 </div>

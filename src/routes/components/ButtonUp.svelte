@@ -26,8 +26,8 @@
 
 <style>
     .button-up {
-        position: fixed;
-        right: 2rem;
+        position: sticky;
+        left: 100vw;
         bottom: 2rem;
         z-index: 1000;
 

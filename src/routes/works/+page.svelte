@@ -1,5 +1,6 @@
 <script>
-  import posts from '$lib/data/articles.json';
+    import posts from '$lib/data/articles.json';
+    import ButtonUp from '../components/ButtonUp.svelte';
 
   const mediosOrder = [
     "El País",
@@ -193,4 +194,6 @@
       </nav>
       </aside>
     </div>
+
+    <ButtonUp />
 </div>
