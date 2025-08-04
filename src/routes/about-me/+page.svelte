@@ -22,7 +22,7 @@
 
             const rect = amTextEl.getBoundingClientRect();
             // Calcular el progreso de scroll entre el inicio y el final de .am_text
-            const offset = 180; // píxeles extra para retrasar el inicio
+            const offset = 200; // píxeles extra para retrasar el inicio
             const start = rect.top + offset;
             const end = rect.bottom - amImageEl.offsetHeight;
             const scrollY = window.innerHeight / 2; // punto de referencia (mitad de la pantalla)
@@ -193,7 +193,6 @@
                     <li><strong>Visualización de mapas:</strong> Leaflet.js y Mapbox GL JS </li>
                     <li><strong>Optimización de mapas:</strong> Mapshaper y Tippecanoe</li>
                     <li><strong>Control de versiones:</strong> Git (software), GitHub</li>
-                    <li><strong>Optimización de archivos:</strong> Minificación de archivos, de imágenes (image-resize) o de vídeos (ffmpeg), empaquetado eficiente (Webpack, Vite)</li>
                 </ul>
             </div>
             <div class="am_text_habilidades_futuras">
