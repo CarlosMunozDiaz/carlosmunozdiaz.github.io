@@ -21,8 +21,8 @@
 
 <nav>
 	<a href="{base}/">Home</a>
-	<a href="{base}/about-me">Sobre mí</a>
+	<a href="{base}/works">Trabajos</a>
 	<a href="{base}/bitacora">Bitácora</a>
-	<a href="{base}/works">Artículos</a>
+	<a href="{base}/about-me">Sobre mí</a>
 </nav>
 

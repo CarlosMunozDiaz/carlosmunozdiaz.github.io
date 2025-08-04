@@ -7,8 +7,8 @@
 
 <style>
   a.home-card {
-    display: block;
-    padding: 20px;
+    display: flex;
+    gap: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-decoration: none;
@@ -25,6 +25,7 @@
 
   .hc_image {
     width: 100%;
+    max-width: 420px;
     height: auto;
     border-radius: 4px;
   }

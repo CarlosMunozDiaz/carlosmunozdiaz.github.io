@@ -53,7 +53,7 @@
         <span class="fc_title">Contacto</span>
         <div class="fc_elems">
             <span class="fc_elem">Teléfono: <a href="tel:34628258170">(+34)628258170</a></span>
-            <span class="fc_elem">Email: <a href="mailto:carlos10md@gmail.com">carlos10md</a></span>
+            <span class="fc_elem">Email: <a href="mailto:carlos10md@gmail.com">carlos10md@gmail.com</a></span>
         </div>
     </div>
     <div class="f_rrss">

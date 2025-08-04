@@ -34,85 +34,92 @@
 </script>
 
 <style>
-      .bitacora-layout {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-      }
+  .bitacora-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem auto;
+  }
 
-      aside {
-        display: none;
-      }
+  .bitacora-layout h2 {
+    margin-top: 0px;
+  }
 
-      .contenedor {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px; /* espacio entre tarjetas */
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
-      .tarjeta {
-        background-color: #f5f5f5;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        padding: 16px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        /* No establecer altura fija */
-      }
+  .tarjeta {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
-      @media (min-width: 768px) {
-        .bitacora-layout {
-          flex-direction: row;
-          align-items: flex-start;
-        }
+  aside {
+    display: none;
+  }
 
-        .contenedor {
-          grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
-        }
+  @media (min-width: 768px) {
+    .bitacora-layout {
+      flex-direction: row;
+      align-items: flex-start;
+    }
 
-        aside {
-          display: block;
-          min-width: 220px;
-          margin-left: 2rem;
-          position: sticky;
-          top: 2rem;
-          align-self: flex-start;
-        }
-        aside nav > ul li {
-          border-bottom: 0px;
-        }
-        aside nav > ul li:not(:first-child) {
-          padding-top: 0.75rem;
-        }
-        aside nav > ul li a {
-          padding-bottom: 0px;
-        }
-        aside nav ul,
-        aside nav li {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-        aside nav li {
-          border-bottom: 1px solid #e0e0e0;
-          width: 100%;
-        }
-        aside nav a {
-          display: block;
-          padding: 0.5rem 0;
-          text-decoration: none;
-          color: inherit;
-        }
-        aside nav ul ul {
-          padding-left: 1rem;
-        }
-      }
+    .contenedor {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+    }
+
+    aside {
+      display: block;
+      min-width: 220px;
+      position: sticky;
+      top: 2rem;
+      align-self: flex-start;
+    }
+
+    aside nav ul,
+    aside nav li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    aside nav li {width: 100%;}
+
+    aside nav a {
+      display: block;
+      padding: 0px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    aside nav ul ul {
+      padding-left: 1rem;
+    }
+
+    aside nav > ul li a {
+      padding-bottom: 0px;
+    }
+
+    aside nav ul .year-item {
+      border-bottom: 0px;
+      padding: 0px;
+    }
+
+    aside nav ul .month-item {
+      padding: 0px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  }
 </style>
 
 <div class="content" view-transition-name="page">
-    <h1>BITÁCORA</h1>
     <p>Como buen cuaderno de bitácora, en este apartado incorporaré artículos periodísticos y de desarrollo web que puedan resultar interesantes para ampliar conocimiento.</p>
     <p>Incluiré <span style="background: #ffeeba;">entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
     <p>Todas las entradas aquí mostradas se ordenan por fecha de creación (propias) o fecha de lectura (ajenas). En su tarjeta se mostrará la fecha de publicación.</p>
@@ -149,14 +156,14 @@
         <nav>
           <ul>
             {#each years as year}
-              <li>
+              <li class="year-item">
                 <a href={`#year-${year}`}>{year}</a>
                 <ul>
                   {#each Object.keys(tree[year]).sort(
                     (a, b) => 
                       new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
                   ) as month}
-                    <li>
+                    <li class="month-item">
                       <a href={`#year-${year}-month-${month}`}>{month}</a>
                     </li>
                   {/each}

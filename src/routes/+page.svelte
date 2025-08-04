@@ -47,6 +47,8 @@
         opacity: 0;
         transform: translateY(40px);
         transition: opacity 0.5s cubic-bezier(.4,0,.2,1), transform 0.5s cubic-bezier(.4,0,.2,1);
+
+        margin-bottom: 1.5rem;
     }
     .card-animate.visible {
         opacity: 1;
