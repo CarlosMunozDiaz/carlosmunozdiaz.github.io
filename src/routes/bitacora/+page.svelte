@@ -120,58 +120,58 @@
 </style>
 
 <div class="content" view-transition-name="page">
-    <p>Como buen cuaderno de bitácora, en este apartado incorporaré artículos periodísticos y de desarrollo web que puedan resultar interesantes para ampliar conocimiento.</p>
-    <p>Incluiré <span style="background: #ffeeba;">entradas propias</span> en las que hablaré de-lo-que-sea: periodismo, libros o material web (nuevas técnicas en CSS, librerías frontend o curiosidades que me apetece probar y programar). Lo que sea, cuando sea.</p>
-    <p>Todas las entradas aquí mostradas se ordenan por fecha de creación (propias) o fecha de lectura (ajenas). En su tarjeta se mostrará la fecha de publicación.</p>
+  <p>Como buen cuaderno de bitácora, en este apartado iré incorporando artículos relacionados con el periodismo y el desarrollo web que puedan resultar útiles o interesantes para ampliar conocimientos.</p>
+  <p>Encontrarás entradas propias en las que hablaré de aspectos variopintos: desde reflexiones sobre periodismo o lecturas recomendadas hasta experimentos con nuevas técnicas en CSS, librerías frontend o cualquier curiosidad que me apetezca probar y programar. Sin calendario fijo, sin obligación. Lo que sea, cuando sea.</p>
+  <p>Las entradas se ordenan por fecha: de creación si <span style="background: #ffeeba; padding: 0.25rem">son mías</span> o de lectura si son de otros autores. No obstante, en cada tarjeta se mostrará la fecha de publicación para que puedas situarlas fácilmente en contexto.</p>
 
-    <div class="bitacora-layout">
-      <div class="posts-list">
-        {#each years as year}
-          <section id={`year-${year}`}>
-            <h2>{year}</h2>
-            {#each Object.keys(tree[year]).sort(
-              (a, b) => 
-                new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
-            ) as month}
-              <article id={`year-${year}-month-${month}`}>
-                <h3>{month}</h3>
-                <div class="contenedor">
-                  {#each tree[year][month] as post}
-                    <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
-                      <div class="tarjeta-content">
-                        <h4>{post.title} ({post.date_publication})</h4>
-                        <p>{post.author}</p>
-                        <p>{post.description}</p>
-                      </div>
-                    </a>
-                  {/each}
-                </div>
-              </article>
-            {/each}
-          </section>
-        {/each}
-      </div>
-      
-      <aside>
-        <nav>
-          <ul>
-            {#each years as year}
-              <li class="year-item">
-                <a href={`#year-${year}`}>{year}</a>
-                <ul>
-                  {#each Object.keys(tree[year]).sort(
-                    (a, b) => 
-                      new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
-                  ) as month}
-                    <li class="month-item">
-                      <a href={`#year-${year}-month-${month}`}>{month}</a>
-                    </li>
-                  {/each}
-                </ul>
-              </li>
-            {/each}
-          </ul>
-        </nav>
-      </aside>
+  <div class="bitacora-layout">
+    <div class="posts-list">
+      {#each years as year}
+        <section id={`year-${year}`}>
+          <h2>{year}</h2>
+          {#each Object.keys(tree[year]).sort(
+            (a, b) => 
+              new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
+          ) as month}
+            <article id={`year-${year}-month-${month}`}>
+              <h3>{month}</h3>
+              <div class="contenedor">
+                {#each tree[year][month] as post}
+                  <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
+                    <div class="tarjeta-content">
+                      <h4>{post.title} ({post.date_publication})</h4>
+                      <p>{post.author}</p>
+                      <p>{post.description}</p>
+                    </div>
+                  </a>
+                {/each}
+              </div>
+            </article>
+          {/each}
+        </section>
+      {/each}
     </div>
+    
+    <aside>
+      <nav>
+        <ul>
+          {#each years as year}
+            <li class="year-item">
+              <a href={`#year-${year}`}>{year}</a>
+              <ul>
+                {#each Object.keys(tree[year]).sort(
+                  (a, b) => 
+                    new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
+                ) as month}
+                  <li class="month-item">
+                    <a href={`#year-${year}-month-${month}`}>{month}</a>
+                  </li>
+                {/each}
+              </ul>
+            </li>
+          {/each}
+        </ul>
+      </nav>
+    </aside>
+  </div>
 </div>

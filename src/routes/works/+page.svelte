@@ -121,8 +121,8 @@
 </style>
 
 <div class="content" view-transition-name="page">
-    <p>Bienvenido a la sección de artículos periodísticos. Aquí encontrarás una lista de publicaciones donde he colaborado.</p>
-    
+    <p>A lo largo de mi trayectoria profesional he tenido la suerte de trabajar en diferentes medios de comunicación y departamentos científicos donde he podido aportar (al menos, intentarlo) mi conocimiento sobre periodismo, visualización de información y programación web.</p>
+    <p>Los artículos -no están todos los que son, pero son todos los que están- están organizados por medio/departamento y fecha de publicación para facilitar una lectura ordenada.</p>
     <div class="article-layout">
       <div class="articles-list">
       {#each orderedMedios as medio}
