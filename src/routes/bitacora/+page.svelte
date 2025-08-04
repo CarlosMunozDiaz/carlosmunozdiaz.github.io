@@ -85,7 +85,7 @@
       display: block;
       min-width: 220px;
       position: sticky;
-      top: 2rem;
+      top: 1rem;
       align-self: flex-start;
     }
 
@@ -119,13 +119,13 @@
     }
 
     aside nav ul .year-item:not(:first-child) {
-      margin-top: 1rem;
+      margin-top: .75rem;
     }
 
     aside nav ul .month-item {
       padding: 0px;
       border-bottom: 1px solid #e0e0e0;
-      margin-top: 0.25rem;
+      margin-top: 0.2rem;
     }
   }
 </style>
