@@ -14,15 +14,19 @@
     
     box-sizing: border-box;
     padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
 
     text-decoration: none;
     color: inherit;
+
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   a.home-card:hover {
-    background-color: #f0f0f0;
+    box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.25);
   }
 
   .hc_text h2 {
@@ -35,14 +39,19 @@
     border-radius: 4px;
 
     mix-blend-mode: multiply;
+
+    aspect-ratio: 420 / 334;
+    object-fit: cover;
   }
 
   @media (min-width: 768px) {
     a.home-card {
       flex-direction: row;
+      height: 340px;
     }
     .hc_image {
       max-width: 420px;
+      align-self: flex-end;
     }
   }
 </style>

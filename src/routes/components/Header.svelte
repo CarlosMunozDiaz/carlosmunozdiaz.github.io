@@ -19,6 +19,7 @@
         display: block;
         font-size: 2rem;
         font-weight: 400;
+        font-style: normal;
     } 
 
     .h_titles {
