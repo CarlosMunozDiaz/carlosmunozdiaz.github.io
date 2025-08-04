@@ -30,6 +30,9 @@
   }
 
   .hc_text h2 {
+    margin: 0px;
+  }
+  .hc_text p {
     margin-top: 0px;
   }
 
