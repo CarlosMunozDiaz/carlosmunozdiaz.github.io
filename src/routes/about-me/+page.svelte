@@ -25,7 +25,7 @@
 
             // Calculate scroll progress within am_text block
             const start = windowHeight * 0.2; // start animating when am_text is 20% into view
-            const end = windowHeight * 0.2 + rect.height - amImageEl.offsetHeight;
+            const end = windowHeight * 0.2 + rect.height - (amImageEl.offsetHeight * 1.5);
             const scrolled = clamp(-rect.top + start, 0, end);
 
             const progress = clamp(scrolled / end, 0, 1);
