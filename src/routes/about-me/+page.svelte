@@ -22,10 +22,12 @@
 
             const rect = amTextEl.getBoundingClientRect();
             // Calcular el progreso de scroll entre el inicio y el final de .am_text
-            const offset = 200; // píxeles extra para retrasar el inicio
+            const offset = 400; // píxeles extra para retrasar el inicio
             const start = rect.top + offset;
-            const end = rect.bottom - amImageEl.offsetHeight;
+            const end = rect.bottom - amImageEl.offsetHeight - offset;
             const scrollY = window.innerHeight / 2; // punto de referencia (mitad de la pantalla)
+
+            console.log(start, end);
 
             // Progreso: 0 cuando la parte superior de .am_text (más offset) llega al centro de la pantalla,
             // 1 cuando la parte inferior de .am_text (menos la altura de la imagen) llega al centro
