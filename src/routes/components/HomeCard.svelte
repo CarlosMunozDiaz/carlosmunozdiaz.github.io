@@ -38,8 +38,6 @@
     height: auto;
     border-radius: 4px;
 
-    mix-blend-mode: multiply;
-
     aspect-ratio: 420 / 334;
     object-fit: cover;
   }
@@ -52,6 +50,7 @@
     .hc_image {
       max-width: 420px;
       align-self: flex-end;
+      transform: rotate3d(0.5, 2, 1, 355deg);
     }
   }
 </style>
