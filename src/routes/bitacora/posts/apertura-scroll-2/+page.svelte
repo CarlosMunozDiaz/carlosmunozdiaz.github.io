@@ -5,82 +5,81 @@
 
     onMount(() => {
         let initialPositions = [];
-    let randomPositions = [];
+        let randomPositions = [];
+        let images = document.querySelectorAll('.apertura_img');
+        function setInitialPositions() {
+            initialPositions = [];
+            randomPositions = [];
+            images.forEach((img, i) => {
+                img.style.position = 'absolute';
 
-    function setInitialPositions() {
-        const images = document.querySelectorAll('.apertura_img');
-        initialPositions = [];
-        randomPositions = [];
-        images.forEach((img, i) => {
-            img.style.position = 'absolute';
+                // 4 arriba, 4 abajo
+                const row = i < 4 ? 0 : 1;
+                const col = i % 4;
+                const imgWidth = 120;
+                const imgHeight = 200;
+                const gridCols = 4;
+                const gridRows = 2;
 
-            // 4 arriba, 4 abajo
-            const row = i < 4 ? 0 : 1;
-            const col = i % 4;
-            const imgWidth = 120;
-            const imgHeight = 200;
-            const gridCols = 4;
-            const gridRows = 2;
+                // Container size
+                const containerWidth = imgWidth * gridCols + 30; // gap: 10px * (cols-1)
+                const containerHeight = imgHeight * gridRows + 10; // gap: 10px
 
-            // Container size
-            const containerWidth = imgWidth * gridCols + 30; // gap: 10px * (cols-1)
-            const containerHeight = imgHeight * gridRows + 10; // gap: 10px
+                // Center in viewport
+                const imagesContainer = document.querySelector('.apertura_images');
+                const containerRect = imagesContainer.getBoundingClientRect();
+                const leftPx = (containerRect.width / 2) - (containerWidth / 2) + col * (imgWidth + 10);
+                const topPx = (containerRect.height / 2) - (containerHeight / 2) + row * (imgHeight + 10);
+                img.style.left = `${leftPx}px`;
+                img.style.top = `${topPx}px`;
+                img.style.width = `${imgWidth}px`;
+                img.style.height = `${imgHeight}px`;
+                initialPositions.push({ left: leftPx, top: topPx });
 
-            // Center in viewport
-            const imagesContainer = document.querySelector('.apertura_images');
-            const containerRect = imagesContainer.getBoundingClientRect();
-            const leftPx = (containerRect.width / 2) - (containerWidth / 2) + col * (imgWidth + 10);
-            const topPx = (containerRect.height / 2) - (containerHeight / 2) + row * (imgHeight + 10);
-            img.style.left = `${leftPx}px`;
-            img.style.top = `${topPx}px`;
-            img.style.width = `${imgWidth}px`;
-            img.style.height = `${imgHeight}px`;
-            initialPositions.push({ left: leftPx, top: topPx });
-
-            // Sutil movimiento aleatorio (máx ±40px horizontal, ±30px vertical)
-            const maxOffsetX = window.innerWidth * 0.3; // 30vw
-            const maxOffsetY = window.innerHeight * 0.4; // 40vh
-            let randX = leftPx + (Math.random() - 0.5) * 2 * maxOffsetX;
-            let randY = topPx + (Math.random() - 0.5) * 2 * maxOffsetY;
-            randomPositions.push({ left: randX, top: randY });
-        });
-        document.querySelector('.apertura_images').classList.add('randomized');
-    }
-
-    function animateImages(progress) {
-        const images = document.querySelectorAll('.apertura_img');
-        images.forEach((img, i) => {
-        const init = initialPositions[i];
-        const rand = randomPositions[i];
-        const left = init.left + (rand.left - init.left) * progress;
-        const top = init.top + (rand.top - init.top) * progress;
-        img.style.left = `${left}px`;
-        img.style.top = `${top}px`;
-        });
-    }
-
-    // Reset to initial positions
-    function resetImages() {
-        setInitialPositions();
-    }
-
-    function handleScroll() {
-        const start = 0;
-        const limit = window.innerHeight * 2;
-        if (window.scrollY > start && window.scrollY < limit) {
-            const progress = Math.min(1, (window.scrollY - start) / (limit - start));
-            animateImages(progress);
-        } else if (window.scrollY <= start) {
-            resetImages();
-        } else if (window.scrollY >= limit) {
-            animateImages(1);
+                // Sutil movimiento aleatorio (máx ±40px horizontal, ±30px vertical)
+                const maxOffsetX = window.innerWidth * 0.3; // 30vw
+                const maxOffsetY = window.innerHeight * 0.4; // 40vh
+                let randX = leftPx + (Math.random() - 0.5) * 2 * maxOffsetX;
+                let randY = topPx + (Math.random() - 0.5) * 2 * maxOffsetY;
+                randomPositions.push({ left: randX, top: randY });
+            });
+            document.querySelector('.apertura_images').classList.add('randomized');
         }
-    }
 
-    window.addEventListener('DOMContentLoaded', () => {
-        setInitialPositions();
-    });
-    window.addEventListener('scroll', handleScroll);
+        function animateImages(progress) {
+            console.log(images,progress);
+            images.forEach((img, i) => {
+                const init = initialPositions[i];
+                const rand = randomPositions[i];
+                const left = init.left + (rand.left - init.left) * progress;
+                const top = init.top + (rand.top - init.top) * progress;
+                img.style.left = `${left}px`;
+                img.style.top = `${top}px`;
+            });
+        }
+
+        // Reset to initial positions
+        function resetImages() {
+            setInitialPositions();
+        }
+
+        function handleScroll() {
+            const start = 0;
+            const limit = window.innerHeight * 2;
+            if (window.scrollY > start && window.scrollY < limit) {
+                const progress = Math.min(1, (window.scrollY - start) / (limit - start));
+                animateImages(progress);
+            } else if (window.scrollY <= start) {
+                resetImages();
+            } else if (window.scrollY >= limit) {
+                animateImages(1);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            setInitialPositions();
+        });
+        window.addEventListener('scroll', handleScroll);
     });
 </script>
 
@@ -92,6 +91,9 @@
         width: 100%;
         height: 300vh;
         position: relative;
+        
+        box-sizing: border-box;
+        border: 1px solid #262626;
     }
     .apertura_sticky {
         position: sticky;
@@ -171,8 +173,8 @@
 <div class="content" view-transition-name="page">
     <h1>Aperturas en scroll (II)</h1>
     <p>En esta página se muestra un ejemplo de apertura en scroll con imágenes alrededor de un elemento central.</p>
-    <p>Los otros desarrollos pueden encontrarlos aquí (I), aquí (III) y aquí (IV). Están hechos con Vanilla JS, no con Svelte.</p>
-    
+    <p>Los otros desarrollos pueden encontrarlos <a href="/bitacora/posts/apertura-scroll-1">aquí</a> (I), <a href="/bitacora/posts/apertura-scroll-3">aquí</a> (III) y <a href="/bitacora/posts/apertura-scroll-4">aquí</a> (IV). Están hechos con Vanilla JS, no con Svelte.</p>
+
     <!-- Segunda apertura -->
     <div class="apertura apertura_2">
         <div class="apertura_container">

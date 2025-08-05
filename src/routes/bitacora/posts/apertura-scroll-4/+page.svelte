@@ -100,13 +100,16 @@
         height: 250vh;
         position: relative;
         margin: 0 auto;
+
+        box-sizing: border-box;
+        border: 1px solid #262626;
     }
     .apertura_sticky {
         position: sticky;
         top: 0;
         left: 0;
         width: 100%;
-        height: calc(100vh - 56px);
+        height: 100vh;
         z-index: 10;
 
         display: flex;
@@ -142,7 +145,7 @@
 
     .apertura_content .apertura_first {
         width: 100%;
-        height: calc(100vh - 56px);
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -166,7 +169,7 @@
 <div class="content" view-transition-name="page">
     <h1>Aperturas en scroll (IV)</h1>
     <p>En esta página se muestra un ejemplo de apertura en scroll con imágenes alrededor de un elemento central.</p>
-    <p>Los otros desarrollos pueden encontrarlos aquí (I), aquí (II) y aquí (III). Están hechos con Vanilla JS, no con Svelte.</p>
+    <p>Los otros desarrollos pueden encontrarlos <a href="/bitacora/posts/apertura-scroll-1">aquí</a> (I), <a href="/bitacora/posts/apertura-scroll-2">aquí</a> (II) y <a href="/bitacora/posts/apertura-scroll-3">aquí</a> (III). Están hechos con Vanilla JS, no con Svelte.</p>
 
     <!-- Cuarta apertura -->
     <div class="apertura apertura_4">
