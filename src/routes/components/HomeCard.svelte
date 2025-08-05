@@ -55,7 +55,11 @@
     .hc_image {
       max-width: 420px;
       align-self: flex-end;
-      transform: rotate3d(0.5, 2, 1, 355deg);
+      transform: rotate3d(1, 1, 2, -5deg);
+    }
+
+    a.home-card:hover .hc_image {
+      transform: rotate3d(1, 1, 2, 5deg);
     }
   }
 </style>
