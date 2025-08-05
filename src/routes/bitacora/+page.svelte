@@ -32,6 +32,16 @@
   });
 
   const years = Object.keys(tree).sort((a, b) => b - a);
+
+  const monthNames = [
+    'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+    'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+  ];
+
+  function getMonthName(monthStr) {
+    const idx = parseInt(monthStr, 10) - 1;
+    return monthNames[idx] || monthStr;
+  }
 </script>
 
 <style>
@@ -147,7 +157,7 @@
               new Date(`${b} 1, 2000`) - new Date(`${a} 1, 2000`)
           ) as month}
             <article id={`year-${year}-month-${month}`}>
-              <h3>{month}</h3>
+                <h3>{getMonthName(month)}</h3>
               <div class="contenedor">
                 {#each tree[year][month] as post}
                   <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
@@ -185,7 +195,7 @@
               <a href={`#year-${year}-month-${month}`} on:click|preventDefault={() => {
                 document.getElementById(`year-${year}-month-${month}`)?.scrollIntoView({ behavior: 'smooth' });
                 history.replaceState(null, '', `#year-${year}-month-${month}`);
-              }}>{month}</a>
+              }}>{getMonthName(month)}</a>
             </li>
           {/each}
               </ul>
