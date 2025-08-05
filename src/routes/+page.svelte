@@ -55,7 +55,7 @@
         transform: translateY(0);
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
         .card-animate:not(:last-child) {
             margin-bottom: 4rem;
         }

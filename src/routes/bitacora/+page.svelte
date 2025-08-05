@@ -70,7 +70,7 @@
     display: none;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .bitacora-layout {
       flex-direction: row;
       justify-content: space-between;

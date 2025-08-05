@@ -53,6 +53,10 @@
 </script>
 
 <style>
+    .content {
+        view-transition-name: page
+    }
+    
     .about-me {
         display: flex;
         flex-direction: column;
@@ -61,25 +65,8 @@
         margin: 0 auto;
     }
 
-    @media (min-width: 900px) {
-        .about-me {
-            flex-direction: row;
-            align-items: flex-start;
-        }
-        .am_image {
-            min-width: 120px;
-            max-width: 180px;
-            width: 160px;
-            margin-right: 2rem;
-            position: relative;
-            /* For sticky positioning */
-        }
-        .am_text {
-            flex: 1;
-        }
-        .am_text_bio p:first-child {
-            margin-top: 0;
-        }
+    li {
+        padding-left: 1.5rem;
     }
 
     .am_image {
@@ -87,13 +74,6 @@
         justify-content: center;
         align-items: flex-start;
         top: 2rem;
-    }
-
-    @media (min-width: 900px) {
-        .am_image {
-            position: sticky;
-            top: 2rem;
-        }
     }
 
     .am_image img {
@@ -107,8 +87,28 @@
         will-change: transform;
     }
 
-    .content {
-        view-transition-name: page
+    @media (min-width: 56.25em) {
+        .about-me {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .am_image {
+            min-width: 120px;
+            max-width: 180px;
+            width: 160px;
+            margin-right: 2rem;
+            position: relative;
+            /* For sticky positioning */
+
+            position: sticky;
+            top: 2rem;
+        }
+        .am_text {
+            flex: 1;
+        }
+        .am_text_bio p:first-child {
+            margin-top: 0;
+        }
     }
 </style>
 
@@ -202,7 +202,8 @@
                 <ul>
                     <li>Three.js y Blender (visualizaciones en tres dimensiones)</li>
                     <li>Adobe Illustrator (para el desarrollo de infografías) junto a ai2html o ai2svelte</li>
-                    <li>Inteligencia Artificial (LLM, MCP)</li>
+                    <li>Inteligencia Artificial (LLM, MCP, etcétera)</li>
+                    <li>Arquitectura front-end</li>
                     <li>Inglés (hablado y escrito)</li>
                     <li>Italiano (hablado y escrito)</li>
                 </ul>

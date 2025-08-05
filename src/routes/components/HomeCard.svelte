@@ -45,7 +45,7 @@
     object-fit: cover;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     a.home-card {
       flex-direction: row;
       justify-content: space-between;

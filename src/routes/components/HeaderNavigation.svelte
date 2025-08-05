@@ -20,7 +20,7 @@
 </style>
 
 <nav>
-	<a href="{base}/">Home</a>
+	<a href="{base}/">Portada</a>
 	<a href="{base}/works">Trabajos</a>
 	<a href="{base}/bitacora">Bitácora</a>
 	<a href="{base}/about-me">Sobre mí</a>

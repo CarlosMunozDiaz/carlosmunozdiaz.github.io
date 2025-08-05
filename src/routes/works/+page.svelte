@@ -76,7 +76,7 @@
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.25);
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .article-layout {
       flex-direction: row;
       justify-content: space-between;
