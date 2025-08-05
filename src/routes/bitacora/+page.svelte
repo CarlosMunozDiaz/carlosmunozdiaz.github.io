@@ -42,7 +42,7 @@
     margin: 1rem auto;
   }
 
-  .bitacora-layout h2:first-of-type {
+  .bitacora-layout .posts-list section:first-of-type h2 {
     margin-top: 0px;
   }
 
@@ -65,6 +65,8 @@
   .tarjeta:hover {
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.25);
   }
+
+  .tarjeta h4 {margin-top: 0px;}
 
   aside {
     display: none;
@@ -131,9 +133,9 @@
 </style>
 
 <div class="content" view-transition-name="page">
-  <p>Como buen cuaderno de bitácora, en este apartado iré incorporando artículos relacionados con el periodismo y el desarrollo web que puedan resultar útiles o interesantes para ampliar conocimientos.</p>
-  <p>Encontrarás entradas propias en las que hablaré de aspectos variopintos: desde reflexiones sobre periodismo o lecturas recomendadas hasta experimentos con nuevas técnicas en CSS, librerías frontend o cualquier curiosidad que me apetezca probar y programar. Sin calendario fijo, sin obligación. Lo que sea, cuando sea.</p>
-  <p>Las entradas se ordenan por fecha: de creación si <span style="background: #ffeeba; padding: 0.25rem">son mías</span> o de lectura si son de otros autores. No obstante, en cada tarjeta se mostrará la fecha de publicación para que puedas situarlas fácilmente en contexto.</p>
+  <p>Como buen cuaderno de bitácora, aquí incorporaré artículos relacionados con el periodismo, la literatura o el desarrollo web que puedan resultar útiles e interesantes para ampliar conocimiento.</p>
+  <p>También incluiré <span style="background: #ffeeba; padding: 0.25rem">entradas propias</span> en las que hablaré de aspectos variopintos: desde reflexiones sobre periodismo o lecturas recomendadas hasta experimentos con nuevas técnicas en CSS, librerías front-end o cualquier curiosidad que me apetezca probar y programar. Sin calendario fijo, sin obligaciones. Lo que sea, cuando sea.</p>
+  <p>Las entradas se ordenan por fecha: de creación si son mías o de lectura si son de otros autores. No obstante, en cada tarjeta se mostrará la fecha de publicación para que puedas contextualizarlas fácilmente.</p>
 
   <div class="bitacora-layout">
     <div class="posts-list">

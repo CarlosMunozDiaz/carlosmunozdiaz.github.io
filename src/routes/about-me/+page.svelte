@@ -19,6 +19,10 @@
     onMount(() => {
         function handleScroll() {
             if (!amTextEl || !amImageEl) return;
+            if (window.innerWidth < 768) {
+                rotation.set(0);
+                return;
+            }
 
             const rect = amTextEl.getBoundingClientRect();
             // Calcular el progreso de scroll entre el inicio y el final de .am_text
@@ -27,14 +31,12 @@
             const end = rect.bottom - amImageEl.offsetHeight - offset;
             const scrollY = window.innerHeight / 2; // punto de referencia (mitad de la pantalla)
 
-            console.log(start, end);
-
             // Progreso: 0 cuando la parte superior de .am_text (más offset) llega al centro de la pantalla,
             // 1 cuando la parte inferior de .am_text (menos la altura de la imagen) llega al centro
             const progress = clamp(
-                (scrollY - start) / (end - start),
-                0,
-                1
+            (scrollY - start) / (end - start),
+            0,
+            1
             );
 
             rotation.set(progress * 360);
@@ -65,10 +67,6 @@
         margin: 0 auto;
     }
 
-    li {
-        padding-left: 1.5rem;
-    }
-
     .am_image {
         display: flex;
         justify-content: center;
@@ -86,6 +84,12 @@
         background: #fff;
         will-change: transform;
     }
+
+    .am_text ul {
+        padding-left: 1.5rem;
+    }
+
+    .am_text ul li p { margin-top: 0px; }
 
     @media (min-width: 56.25em) {
         .about-me {

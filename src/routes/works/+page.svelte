@@ -48,12 +48,8 @@
     margin: 1rem auto;
   }
 
-  .article-layout h2:first-of-type {
+  .article-layout .articles-list section:first-of-type h2 {
     margin-top: 0px;
-  }
-
-  aside {
-    display: none;
   }
 
   .contenedor {
@@ -72,8 +68,14 @@
     box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.35);
   }
 
+  .tarjeta h4 {margin-top: 0px;}
+
   .tarjeta:hover {
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.25);
+  }
+
+  aside {
+    display: none;
   }
 
   @media (min-width: 48em) {
