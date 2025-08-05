@@ -57,7 +57,7 @@
 
     @media (min-width: 48em) {
         .card-animate:not(:last-child) {
-            margin-bottom: 6rem;
+            margin-bottom: 5rem;
         }
         .card-animate:last-child {
             margin-bottom: 2rem;

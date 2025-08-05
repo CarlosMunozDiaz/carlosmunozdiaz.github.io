@@ -60,7 +60,7 @@
         flex-direction: column;
         gap: 2rem;
         max-width: 840px;
-        margin: 0 auto;
+        margin: 1rem auto 2rem auto;
     }
 
     .am_image {

@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem auto;
   }
 
   .article-layout h2 {
