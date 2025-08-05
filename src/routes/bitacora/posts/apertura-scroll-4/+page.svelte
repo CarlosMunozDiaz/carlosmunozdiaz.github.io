@@ -95,7 +95,7 @@
     }
     .apertura_container {
         width: 100%;
-        height: 250vh;
+        height: 300vh;
         position: relative;
         margin: 0 auto;
 
@@ -147,6 +147,16 @@
         align-items: center;
         justify-content: center;
     }
+
+    .apertura_content .apertura_first .apertura_first_text {
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+        border-radius: 8px;
+
+        z-index: 100;
+    }
     
     .apertura_content .apertura_second {
         width: 100%;
@@ -171,6 +181,7 @@
         <a href="{base}/bitacora/posts/apertura-scroll-2">aquí (II)</a> y 
         <a href="{base}/bitacora/posts/apertura-scroll-3">aquí (III)</a>. Todas ellas están desarrolladas con Vanilla JS, no con Svelte.
     </p>
+    <p>En la última prueba que desarrollé, las imágenes empiezan rodeando un contenedor que contiene el título de la pieza. Cuando el usuario hace scroll, las imágenes van centrando su posición hasta formar un nuevo mosaico.</p>
 
     <!-- Cuarta apertura -->
     <div class="apertura apertura_4">

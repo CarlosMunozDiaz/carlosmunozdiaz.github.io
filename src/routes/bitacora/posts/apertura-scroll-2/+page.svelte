@@ -179,6 +179,7 @@
         <a href="{base}/bitacora/posts/apertura-scroll-3">aquí (III)</a> y 
         <a href="{base}/bitacora/posts/apertura-scroll-4">aquí (IV)</a>. Todas ellas están desarrolladas con Vanilla JS, no con Svelte.
     </p>
+    <p>Aquí las múltiples imágenes empiezan centradas para, posteriormente, disperarse por la pantalla mientras el usuario hace scroll. Finalmente, aparecería el contenedor con el título de la pieza.</p>
 
     <!-- Segunda apertura -->
     <div class="apertura apertura_2">

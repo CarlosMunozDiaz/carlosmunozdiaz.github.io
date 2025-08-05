@@ -62,7 +62,7 @@
   {
     "id": 6,
     "title": "Aperturas en scroll (II)",
-    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "description": "Segundo ejemplo de apertura en scroll. Aquí, las múltiples imágenes empiezan centradas para, posteriormente, disperarse por la pantalla mientras el usuario hace scroll. ",
     "authors": "Carlos Muñoz Díaz",
     "medio": "",
     "date_publication": "23/07/2025",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "title": "Aperturas en scroll (III)",
-    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "description": "Segundo ejemplo de apertura en scroll. Aquí, a diferencia del segundo ejemplo, las múltiples imágenes empiezan dispersadas por la pantalla y, mientras el usuario hace scroll, se van centrando.",
     "authors": "Carlos Muñoz Díaz",
     "medio": "",
     "date_publication": "23/07/2025",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "title": "Aperturas en scroll (IV)",
-    "description": "Ejemplo de apertura en scroll con imágenes alrededor de un elemento central con dos contenedores: uno con un elemento visual (un mapa, por ejemplo) y un segundo con el título de la pieza.",
+    "description": "En el último ejemplo de aperturas en scroll, las imágenes empiezan rodeando un contenedor. Cuando el usuario hace scroll, las imágenes van centrando su posición hasta formar un nuevo mosaico.",
     "authors": "Carlos Muñoz Díaz",
     "medio": "",
     "date_publication": "23/07/2025",
