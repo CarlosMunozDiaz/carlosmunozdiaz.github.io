@@ -125,7 +125,7 @@
         </div>
         <div class="am_text" bind:this={amTextEl}>
             <div class="am_text_bio">
-            <p>Soy Carlos Muñoz Díaz. Nací en Madrid en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
+            <p>Soy Carlos Muñoz Díaz. Nací en Madrid (España) en 1993, pero crecí en Getafe, una ciudad al sur de la capital de España.</p>
             <p>Estudié Periodismo en la Universidad Carlos III de Madrid entre 2011 y 2015 y, posteriormente, el Máster en Periodismo de Investigación, Datos y Visualización de Unidad Editorial entre 2015 y 2016.</p>
             <p>Tras encadenar varios contratos de prácticas y de autónomo a nivel periodístico, decidí darle un pequeño vuelco a mi carrera profesional y opté por estudiar Desarrollo de Aplicaciones Web entre 2017 y 2019. Así, a lo loco. Una de las decisiones más acertadas de mi vida.</p>
             <p>Desde entonces, he trabajado en consultoría (Raona), departamentos científicos (área de Demografía en el Centro de Ciencias Humanas y Sociales) y medios de comunicación (El Confidencial y El País).</p>
