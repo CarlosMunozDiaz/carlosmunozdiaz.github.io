@@ -173,11 +173,11 @@
 
 <div class="content" view-transition-name="page">
     <h1>Aperturas en scroll (II)</h1>
-    <p>En esta página se muestra un ejemplo de apertura en scroll con imágenes alrededor de un elemento central.</p>
-    <p>Los otros desarrollos pueden encontrarlos 
+    <p>
+        Hace poco estuve probando posibles aperturas para un especial de El País. En este ejemplo muestro una de ellas. Las otras las puedes ver 
         <a href="{base}/bitacora/posts/apertura-scroll-1">aquí (I)</a>, 
         <a href="{base}/bitacora/posts/apertura-scroll-3">aquí (III)</a> y 
-        <a href="{base}/bitacora/posts/apertura-scroll-4">aquí (IV)</a>. Están hechos con Vanilla JS, no con Svelte.
+        <a href="{base}/bitacora/posts/apertura-scroll-4">aquí (IV)</a>. Todas ellas están desarrolladas con Vanilla JS, no con Svelte.
     </p>
 
     <!-- Segunda apertura -->
