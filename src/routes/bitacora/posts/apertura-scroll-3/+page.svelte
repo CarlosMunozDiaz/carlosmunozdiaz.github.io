@@ -6,9 +6,9 @@
     onMount(() => {
         let initialPositions = [];
         let randomPositions = [];
+        let images = document.querySelectorAll('.apertura_img');
 
         function setInitialPositions() {
-            const images = document.querySelectorAll('.apertura_img');
             initialPositions = [];
             randomPositions = [];
             images.forEach((img, i) => {
@@ -49,7 +49,6 @@
         }
 
         function animateImages(progress) {
-            const images = document.querySelectorAll('.apertura_img');
             images.forEach((img, i) => {
                 const init = initialPositions[i];
                 const rand = randomPositions[i];
@@ -66,7 +65,7 @@
         }
 
         function handleScroll() {
-            const start = 56;
+            const start = 0;
             const limit = window.innerHeight * 2.5;
             if (window.scrollY > start && window.scrollY < limit) {
                 const progress = Math.min(1, (window.scrollY - start) / (limit - start));

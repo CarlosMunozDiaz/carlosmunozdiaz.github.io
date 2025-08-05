@@ -55,15 +55,15 @@
             const isMobile = window.innerWidth <= 600;
             const positions = isMobile ? initialPositionsMobile : initialPositions;
             images.forEach((img, i) => {
-            if (positions[i] && finalPositions[i]) {
-                const initialLeft = parseFloat(img.dataset.initialLeft || positions[i].left);
-                const initialTop = parseFloat(img.dataset.initialTop || positions[i].top);
-                const finalLeft = parseFloat(finalPositions[i].left);
-                const finalTop = parseFloat(finalPositions[i].top);
-                const left = initialLeft + (finalLeft - initialLeft) * progress;
-                const top = initialTop + (finalTop - initialTop) * progress;
-                img.style.transform = `translate3d(${left}%, ${top}%, -100px)`;
-            }
+                if (positions[i] && finalPositions[i]) {
+                    const initialLeft = parseFloat(img.dataset.initialLeft || positions[i].left);
+                    const initialTop = parseFloat(img.dataset.initialTop || positions[i].top);
+                    const finalLeft = parseFloat(finalPositions[i].left);
+                    const finalTop = parseFloat(finalPositions[i].top);
+                    const left = initialLeft + (finalLeft - initialLeft) * progress;
+                    const top = initialTop + (finalTop - initialTop) * progress;
+                    img.style.transform = `translate3d(${left}%, ${top}%, -100px)`;
+                }
             });
         }
         
@@ -72,7 +72,7 @@
         }
 
         function handleScroll() {
-            const start = 56;
+            const start = 0;
             const limit = window.innerHeight * 1.5;
             if (window.scrollY > start && window.scrollY < limit) {
                 const progress = Math.min(1, (window.scrollY - start) / (limit - start));
@@ -169,7 +169,7 @@
 <div class="content" view-transition-name="page">
     <h1>Aperturas en scroll (IV)</h1>
     <p>En esta página se muestra un ejemplo de apertura en scroll con imágenes alrededor de un elemento central.</p>
-   <p>Los otros desarrollos pueden encontrarlos 
+    <p>Los otros desarrollos pueden encontrarlos 
         <a href="{base}/bitacora/posts/apertura-scroll-1">aquí (I)</a>, 
         <a href="{base}/bitacora/posts/apertura-scroll-2">aquí (II)</a> y 
         <a href="{base}/bitacora/posts/apertura-scroll-3">aquí (III)</a>. Están hechos con Vanilla JS, no con Svelte.
@@ -191,12 +191,12 @@
                 </div>
             </div>
             <div class="apertura_content">
-                <div class="apertura_first"></div>
-                <div class="apertura_second">
-                    <div class="apertura_second_text">
+                <div class="apertura_first">
+                    <div class="apertura_first_text">
                         <h1>Título del especial</h1>
                     </div>
                 </div>
+                <div class="apertura_second"></div>
             </div>
         </div>
     </div>

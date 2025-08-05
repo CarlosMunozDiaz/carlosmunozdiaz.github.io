@@ -7,6 +7,7 @@
         let initialPositions = [];
         let randomPositions = [];
         let images = document.querySelectorAll('.apertura_img');
+
         function setInitialPositions() {
             initialPositions = [];
             randomPositions = [];
@@ -51,6 +52,7 @@
             images.forEach((img, i) => {
                 const init = initialPositions[i];
                 const rand = randomPositions[i];
+                console.log(img,init,rand,progress);
                 const left = init.left + (rand.left - init.left) * progress;
                 const top = init.top + (rand.top - init.top) * progress;
                 img.style.left = `${left}px`;
