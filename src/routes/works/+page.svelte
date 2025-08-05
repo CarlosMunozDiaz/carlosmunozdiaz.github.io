@@ -52,6 +52,10 @@
     margin-top: 0px;
   }
 
+  .article-layout .articles-list section article:first-of-type h3 {
+    margin-top: 0px;
+  }
+
   .contenedor {
     display: grid;
     grid-template-columns: 1fr;

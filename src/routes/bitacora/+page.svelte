@@ -56,6 +56,10 @@
     margin-top: 0px;
   }
 
+  .bitacora-layout .posts-list section article:first-of-type h3 {
+    margin-top: 0px;
+  }
+
   .contenedor {
     display: grid;
     grid-template-columns: 1fr;
@@ -77,6 +81,11 @@
   }
 
   .tarjeta h4 {margin-top: 0px;}
+
+  .tarjeta .tarjeta-authors {
+    font-style: italic;
+    margin: 0rem auto;
+  }
 
   aside {
     display: none;
@@ -164,7 +173,7 @@
                     <div class="tarjeta-content">
                       <h4>{post.title} ({post.date_publication})</h4>
                       {#if !post['own_entry']}
-                        <p>{post.authors}</p>
+                        <p class="tarjeta-authors">{post.authors}</p>
                       {/if}
                       <p>{post.description}</p>
                     </div>
