@@ -55,10 +55,6 @@
 </script>
 
 <style>
-    .content {
-        view-transition-name: page
-    }
-    
     .about-me {
         display: flex;
         flex-direction: column;
