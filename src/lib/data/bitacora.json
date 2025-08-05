@@ -94,5 +94,17 @@
     "link": "https://www.carlosmunozdiaz.es/bitacora/posts/apertura-scroll-4",
     "image": "",
     "own_entry": true
+  },
+  {
+    "id": 9,
+    "title": "A guide to Scroll-driven Animations with just CSS",
+    "description": "Las animaciones en scroll vía CSS (esto es, sin requerir nada, absolutamente nada, de JavaScript) están cada vez más cerca de ser una realidad estable en todos los navegadores principales. Este artículo de WebKit (Safari/iOS) permite empezar a entender cómo funcionan.",
+    "authors": "Saron Yitbarek",
+    "medio": "WebKit Blog",
+    "date_publication": "20/06/2025",
+    "date_read": "04/08/2025",
+    "link": "https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/",
+    "image": "",
+    "own_entry": false
   }
 ]

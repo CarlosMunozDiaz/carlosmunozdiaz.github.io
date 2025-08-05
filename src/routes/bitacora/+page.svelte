@@ -153,7 +153,9 @@
                   <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
                     <div class="tarjeta-content">
                       <h4>{post.title} ({post.date_publication})</h4>
-                      <p>{post.author}</p>
+                      {#if !post['own_entry']}
+                        <p>{post.authors}</p>
+                      {/if}
                       <p>{post.description}</p>
                     </div>
                   </a>
