@@ -52,6 +52,10 @@
     margin: 1rem auto;
   }
 
+  .bitacora-layout h2 {
+    margin-bottom: 0px;
+  }
+
   .bitacora-layout .posts-list section:first-of-type h2 {
     margin-top: 0px;
   }

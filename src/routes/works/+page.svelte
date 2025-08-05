@@ -48,6 +48,10 @@
     margin: 1rem auto;
   }
 
+  .article-layout h2 {
+    margin-bottom: 0px;
+  }
+
   .article-layout .articles-list section:first-of-type h2 {
     margin-top: 0px;
   }
