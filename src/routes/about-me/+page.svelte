@@ -116,7 +116,7 @@
     }
 </style>
 
-<div class="content">
+<div class="content" view-transition-name="page">
     <div class="about-me">
         <div class="am_image" bind:this={amImageEl}>
             <img
