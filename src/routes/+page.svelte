@@ -73,9 +73,9 @@
         <HomeCard href="{base}/works" title="Mis trabajos" description="Una colección de proyectos y trabajos realizados." image="{base}/media/elpais_2.png"/>
     </div>
     <div bind:this={card1} class="card-animate" class:visible={isVisible[1]}>
-        <HomeCard href="{base}/bitacora" title="Bitácora" description="Reflexiones y lecturas a lo largo del tiempo." image="{base}/media/instagram_4.jpg"/>
+        <HomeCard href="{base}/bitacora" title="Bitácora" description="Lecturas, reflexiones, pruebas de concepto." image="{base}/media/instagram_4.jpg"/>
     </div>
     <div bind:this={card2} class="card-animate" class:visible={isVisible[2]}>
-        <HomeCard href="{base}/about-me" title="Sobre mí" description="Mi recorrido laboral." image="{base}/media/instagram_3.jpg"/>
+        <HomeCard href="{base}/about-me" title="Sobre mí" description="Mi recorrido educativo y laboral." image="{base}/media/instagram_3.jpg"/>
     </div>
 </div>
