@@ -136,16 +136,16 @@
                 <h3>Trayectoria profesional</h3>
                 <ul>
                     <li>
-                        <h4>Desarrollador web – El País</h4>
-                        <p>Junio de 2022 – Actualidad<br>Maquetación web de formatos especiales y widgets electorales.</p>
+                        <h4>Desarrollador web – El País (Grupo PRISA)</h4>
+                        <p>Junio de 2022 – Actualidad<br>Maquetación web de formatos especiales y widgets interactivos.</p>
                     </li>
                     <li>
                         <h4>Analista y visualizador de datos – Consejo Superior de Investigaciones Científicas (CSIC)</h4>
-                        <p>Julio 2021 – Junio 2022<br>Análisis de bases de datos demográficas y visualización interactiva de datos estadísticos.</p>
+                        <p>Julio 2021 – Junio 2022<br>Análisis de bases de datos demográficas (con R) y visualización interactiva de datos estadísticos.</p>
                     </li>
                     <li>
-                        <h4>Desarrollador front-end – El Confidencial</h4>
-                        <p>Marzo 2020 – Junio 2021<br>Desarrollo de páginas web interactivas, visualizaciones con D3.js, Leaflet, Mapbox, scraping con Node.js y procesamiento de datos con R y Mapshaper.</p>
+                        <h4>Desarrollador web – El Confidencial</h4>
+                        <p>Marzo 2020 – Junio 2021<br>Maquetación y desarrollo de formatos especiales, visualizaciones con D3.js y Mapbox y web scraping.</p>
                     </li>
                     <li>
                         <h4>Desarrollador web – Raona</h4>
