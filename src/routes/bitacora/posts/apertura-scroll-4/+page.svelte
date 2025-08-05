@@ -84,9 +84,7 @@
             }
         }
 
-        window.addEventListener('DOMContentLoaded', () => {
-            setInitialPositions();
-        });
+        setInitialPositions();
         window.addEventListener('scroll', handleScroll);
     });
 </script>
@@ -124,7 +122,7 @@
         position: relative;
     }
     .apertura_img {
-        width: 120px;
+        width: 300px;
         height: 200px;
         object-fit: cover;
 
@@ -132,7 +130,6 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        width: 50%;
     }
 
     .apertura_content {
@@ -145,7 +142,7 @@
 
     .apertura_content .apertura_first {
         width: 100%;
-        height: 100%;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;

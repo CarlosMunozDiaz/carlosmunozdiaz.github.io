@@ -9,6 +9,7 @@
         let images = document.querySelectorAll('.apertura_img');
 
         function setInitialPositions() {
+            console.log('Setting initial positions');
             initialPositions = [];
             randomPositions = [];
             images.forEach((img, i) => {
@@ -77,9 +78,7 @@
             }
         }
 
-        window.addEventListener('DOMContentLoaded', () => {
-            setInitialPositions();
-        });
+        setInitialPositions();
         window.addEventListener('scroll', handleScroll);
     });
 </script>
