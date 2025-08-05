@@ -60,7 +60,7 @@
             margin-bottom: 6rem;
         }
         .card-animate:last-child {
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         .card-animate:first-child {
             margin-top: 2rem;
