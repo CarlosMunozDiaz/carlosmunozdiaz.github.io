@@ -55,12 +55,12 @@
     .hc_image {
       max-width: 420px;
       align-self: flex-end;
-      transform: rotate3d(1, 1, 2, -5deg);
+      transform: rotate3d(1, 1, 2, -5deg) scale(1);
       transition: transform 0.3s ease-in-out;
     }
 
     a.home-card:hover .hc_image {
-      transform: rotate3d(1, 1, 2, 5deg);
+      transform: rotate3d(1, 1, 2, 5deg) scale(1.15);
       transition: transform 0.3s ease-in-out;
     }
   }
