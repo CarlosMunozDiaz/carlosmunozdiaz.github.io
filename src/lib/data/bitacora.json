@@ -106,5 +106,17 @@
     "link": "https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 10,
+    "title": "You no longer need JavaScript",
+    "description": "Un artículo que explora cómo, en muchos casos, es suficiente con utilizar CSS sin necesidad de JavaScript. Habla de acordeones, animaciones CSS o nuevas reglas como @starting-style.",
+    "authors": "Lyra",
+    "medio": "Lyra's Epic Blog",
+    "date_publication": "28/08/2025",
+    "date_read": "23/09/2025",
+    "link": "https://lyra.horse/blog/2025/08/you-dont-need-js/",
+    "image": "",
+    "own_entry": false
   }
 ]
