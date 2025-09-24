@@ -147,7 +147,7 @@
 
 <div class="content" view-transition-name="page">
     <p>A lo largo de mi trayectoria profesional he tenido la suerte de trabajar en diferentes medios de comunicación y departamentos científicos donde he podido aportar (al menos, intentarlo) mi conocimiento sobre periodismo, visualización de información y programación web.</p>
-    <p>Los artículos -no están todos los que son, pero son todos los que están- están organizados por medio/departamento y fecha de publicación para facilitar una lectura ordenada.</p>
+    <p>Los artículos -no están todos los que son, pero son todos los que están- están organizados por medio/departamento y fecha de publicación para facilitar una lectura ordenada. Bajo este <span style="background: #ffeeba; padding: 0.25rem">amarillo crema</span> aparecen los artículos más especiales para mí.</p>
     <div class="article-layout">
       <div class="articles-list">
       {#each orderedMedios as medio}
@@ -158,7 +158,7 @@
             <h3>{year}</h3>
             <div class="contenedor">
               {#each groupedPosts[medio][year] as post}
-                <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['own_entry'] ? '#ffeeba' : 'transparent'}">
+                <a class="tarjeta" href="{post.link}" style="text-decoration: none; color: inherit; background: {post['destacado'] ? '#ffeeba' : 'transparent'}">
                   <div class="tarjeta-content">
                     <h4>{post.title} ({post.fecha})</h4>
                     <p>{post.author}</p>
