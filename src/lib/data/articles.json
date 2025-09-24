@@ -19,7 +19,7 @@
     "fecha": "02/05/2025",
     "link": "https://elpais.com/espana/2025-05-02/la-dana-mas-tragica-minuto-a-minuto-quien-hizo-que-mientras-valencia-se-inundaba.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "fecha": "28/10/2024",
     "link": "https://elpais.com/internacional/elecciones-usa/2024-10-28/resultados-historicos-de-las-elecciones-presidenciales-en-estados-unidos.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 5,
@@ -63,7 +63,7 @@
     "fecha": "27/12/2023",
     "link": "https://elpais.com/especiales/2023/resumen-anual/",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 7,
@@ -107,7 +107,7 @@
     "fecha": "27/06/2025",
     "link": "https://elpais.com/cultura/2025-06-27/bienvenidos-al-gran-banquete-de-verones-recorra-el-monumental-cuadro-de-la-cena-en-casa-de-simon.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 11,
@@ -261,7 +261,7 @@
     "fecha": "30/01/2024",
     "link": "https://elpais.com/cultura/2024-01-30/joyas-ocultas-del-palacio-real-de-madrid.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "fecha": "17/09/2022",
     "link": "https://elpais.com/sociedad/2022-09-17/la-palma-ano-uno-vidas-marcadas-por-el-volcan.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 26,
@@ -316,7 +316,7 @@
     "fecha": "23/07/2023",
     "link": "https://elpais.com/espana/elecciones/generales/escanos-por-provincia/",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 30,
@@ -338,7 +338,7 @@
     "fecha": "23/06/2017",
     "link": "https://medium.com/@VocentoLab/quieres-saber-qu%C3%A9-implica-el-auge-de-los-robots-para-los-medios-73acfb908615",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 32,
@@ -437,7 +437,7 @@
     "fecha": "11/08/2016",
     "link": "https://www.elespanol.com/deportes/20160811/146986186_0.html",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 41,
@@ -470,7 +470,7 @@
     "fecha": "27/04/2022",
     "link": "https://apuntesdedemografia.com/2022/04/27/las-mujeres-ya-no-pasean-por-el-campo-espanol/",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 44,
@@ -569,7 +569,7 @@
     "fecha": "26/06/2021",
     "link": "https://www.elconfidencial.com/espana/2021-06-26/objetivo-70-la-inmunidad-de-rebano-y-el-final-de-la-pandemia-en-espana_3148283/",
     "image": "",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": 53,
@@ -580,7 +580,7 @@
     "fecha": "06/06/2021",
     "link": "https://www.elconfidencial.com/espana/2021-06-06/gobierno-preguntas-congreso-senado-partidos_3116691/",
     "image": "",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": 54,
@@ -602,7 +602,7 @@
     "fecha": "05/05/2021",
     "link": "https://www.elconfidencial.com/espana/madrid/2021-05-05/elecciones-resultados-municipios-censo_3058391/",
     "image": "",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": 56,
