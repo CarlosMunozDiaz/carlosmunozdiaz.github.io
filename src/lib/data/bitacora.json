@@ -118,5 +118,29 @@
     "link": "https://lyra.horse/blog/2025/08/you-dont-need-js/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 11,
+    "title": "CSS-only scrollspy effect using scroll-marker-group and :target-current",
+    "description": "Aunque todavía no está ampliamente disponible, el efecto 'scrollspy' es muy interesante para crear menús de navegación que indiquen en qué sección de la página se encuentra el usuario sin necesidad (otra vez) de JavaScript. Habrá que estar atentos a su evolución.",
+    "authors": "Sara Soueidan",
+    "medio": "Sara Soueidan's Blog",
+    "date_publication": "18/08/2025",
+    "date_read": "24/09/2025",
+    "link": "https://www.sarasoueidan.com/blog/css-scrollspy/",
+    "image": "",
+    "own_entry": false
+  },
+  {
+    "id": 12,
+    "title": "You’re loading fonts wrong (and it’s crippling your performance)",
+    "description": "Un pormenorizado análisis de la importancia de las fuentes y de cómo pueden afectar al rendimiento de una página web. Súper interesante.",
+    "authors": "Jono Alderson",
+    "medio": "Jono Alderson's Blog",
+    "date_publication": "21/08/2025",
+    "date_read": "25/09/2025",
+    "link": "https://www.jonoalderson.com/blog/youre-loading-fonts-wrong/",
+    "image": "",
+    "own_entry": false
   }
 ]
