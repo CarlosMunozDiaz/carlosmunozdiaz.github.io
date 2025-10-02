@@ -636,5 +636,16 @@
     "link": "https://elpais.com/television/2025-09-07/asi-ha-cambiado-la-parrilla-televisiva-y-los-espectadores-en-30-anos-de-programas-infantiles-y-series-a-concursos-y-tertulias.html",
     "image": "",
     "destacado": true
+  },
+  {
+    "id": 59,
+    "title": "Viaje por España a través de 14 monumentos",
+    "description": "Un recorrido por la historia y la cultura de España a través de sus algunos monumentos emblemáticos. Con Protomaps, Maputnik y MapLibre GL JS.",
+    "authors": "J. A. Rojo, Ana Fernández y Carlos Muñoz",
+    "medio": "El País",
+    "fecha": "27/09/2025",
+    "link": "https://elpais.com/babelia/2025-09-27/un-viaje-para-comprender-la-historia-de-espana.html",
+    "image": "",
+    "destacado": true
   }
 ]
