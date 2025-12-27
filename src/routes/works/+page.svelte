@@ -3,6 +3,7 @@
     import ButtonUp from '../components/ButtonUp.svelte';
 
   const mediosOrder = [
+    "Agencia Colpisa",
     "El País",
     "Envejecimiento en Red",
     "Apuntes de Demografía",
@@ -141,6 +142,28 @@
       padding: 0px;
       border-bottom: 1px solid #e0e0e0;
       margin-top: .2rem;
+    }
+  }
+
+  @media (min-width: 48em) and (max-height:700px) {
+    aside nav ul {
+      max-height: 420px;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    aside nav ul:after {
+      content: "";
+      position: sticky;
+      bottom: 0;
+      height: 32px;
+      width: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)
+      );
+      pointer-events: none;
     }
   }
 </style>

@@ -142,5 +142,17 @@
     "link": "https://www.jonoalderson.com/blog/youre-loading-fonts-wrong/",
     "image": "",
     "own_entry": false
+  },
+  {
+    "id": 13,
+    "title": "Range Syntax for Style Queries",
+    "description": "Explora las nuevas posibilidades sintácticas con rangos en CSS y cómo se puede trabajar con ellos en container queries y junto a funciones if().",
+    "authors": "Una",
+    "medio": "Una's Blog",
+    "date_publication": "12/11/2025",
+    "date_read": "27/12/2025",
+    "link": "https://una.im/range-style-queries/",
+    "image": "",
+    "own_entry": false
   }
 ]
