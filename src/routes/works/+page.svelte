@@ -154,6 +154,7 @@
 
     aside nav > ul:after {
       content: "";
+      display: block;
       position: sticky;
       bottom: 0;
       height: 32px;
