@@ -146,13 +146,13 @@
   }
 
   @media (min-width: 48em) and (max-height:700px) {
-    aside nav ul {
+    aside nav > ul {
       max-height: 420px;
       overflow-y: auto;
       position: relative;
     }
 
-    aside nav ul:after {
+    aside nav > ul:after {
       content: "";
       position: sticky;
       bottom: 0;
