@@ -153,6 +153,30 @@
       margin-top: 0.2rem;
     }
   }
+
+  @media (min-width: 48em) and (max-height: 700px) {
+    aside nav ul {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    aside nav ul:after {
+      content: "";
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)
+      );
+
+      pointer-events: none;
+    }
+  }
 </style>
 
 <div class="content" view-transition-name="page">

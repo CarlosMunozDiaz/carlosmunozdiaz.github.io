@@ -136,8 +136,12 @@
                 <h3>Trayectoria profesional</h3>
                 <ul>
                     <li>
+                        <h4>Periodismo y desarrollo web – Grupo Vocento</h4>
+                        <p>Octubre de 2025 – Actualidad<br>Redacción de artículos periodísticos y desarrollo de formatos especiales.</p>
+                    </li>
+                    <li>
                         <h4>Desarrollador web – El País (Grupo PRISA)</h4>
-                        <p>Junio de 2022 – Actualidad<br>Maquetación web de formatos especiales y widgets interactivos.</p>
+                        <p>Junio de 2022 – Octubre de 2025<br>Maquetación web de formatos especiales y widgets interactivos.</p>
                     </li>
                     <li>
                         <h4>Analista y visualizador de datos – Consejo Superior de Investigaciones Científicas (CSIC)</h4>

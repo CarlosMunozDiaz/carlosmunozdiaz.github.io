@@ -647,5 +647,60 @@
     "link": "https://elpais.com/babelia/2025-09-27/un-viaje-para-comprender-la-historia-de-espana.html",
     "image": "",
     "destacado": true
+  },
+  {
+    "id": 60,
+    "title": "Por qué se puede construir en zona inundable: los 3 millones de personas en riesgo",
+    "description": "Uso de GDAL (ogr2ogr) para procesar archivos .gpkg y convertirlos en .mbtiles y pintado de múltiples capas en scroll con MapLibre GL JS",
+    "authors": "Sara I. Belled, Carlos Muñoz y Guillermo Villar",
+    "medio": "Agencia Colpisa",
+    "fecha": "28/10/2025",
+    "link": "https://www.hoy.es/sociedad/puede-construir-zona-inundable-millones-personas-riesgo-20251028130358-ntrc.html",
+    "image": "",
+    "destacado": true
+  },
+  {
+    "id": 61,
+    "title": "50 años de Bohemian Rhapsody, el éxito más improbable de la historia",
+    "description": "Desarollo de submenú en sticky con la onda sonora de la canción y animaciones en ladillos",
+    "authors": "Carlos G. Fernández, Sara I. Belled, Álex Sánchez, Carlos Muñoz Díaz y Guillermo Villar",
+    "medio": "Agencia Colpisa",
+    "fecha": "31/10/2025",
+    "link": "https://www.hoy.es/culturas/musica/anos-bohemian-rhapsody-exito-improbable-historia-rock-20251031071422-ntrc.html",
+    "image": "",
+    "destacado": false
+  },
+  {
+    "id": 62,
+    "title": "El mapa de todas las estrellas Michelin 2026",
+    "description": "Redacción del artículo, procesamiento de datos y desarrollo de mapa (MapLibre GL JS) y gráficos (Datawrapper)",
+    "authors": "Carlos Muñoz Díaz, Guillermo Villar, Álex Sánchez y Sara I. Belled",
+    "medio": "Agencia Colpisa",
+    "fecha": "25/11/2025",
+    "link": "https://www.hoy.es/sociedad/mapa-estrellas-michelin-2026-espana-20251125224944-ntrc.html",
+    "image": "",
+    "destacado": false
+  },
+  {
+    "id": 63,
+    "title": "Restaurantes con estrella en pueblos diminutos: cuando tienes más clientes que vecinos",
+    "description": "Procesamiento de datos",
+    "authors": "Guillermo Villar, Sara I. Belled y Carlos Muñoz Díaz",
+    "medio": "Agencia Colpisa",
+    "fecha": "27/11/2025",
+    "link": "https://www.hoy.es/culturas/gastronomia/restaurantes-estrella-pueblos-diminutos-clientes-vecinos-20251127125614-ntrc.html",
+    "image": "",
+    "destacado": false
+  },
+  {
+    "id": 64,
+    "title": "La difícil tarea de comprarse una casa en España incluso con el Gordo",
+    "description": "Maquetación, desarrollo de lógica de selección provincial y uso de API de Datawrapper para procesar la información de todas las provincias vía R",
+    "authors": "Guillermo Villar, Alba Martín Campos, Carlos Muñoz Díaz y Sara I. Belled",
+    "medio": "Agencia Colpisa",
+    "fecha": "22/12/2025",
+    "link": "https://www.hoy.es/loteria/navidad/dificil-tarea-comprarse-casa-incluso-toque-gordo-20251222064921-ntrc.html",
+    "image": "",
+    "destacado": false
   }
 ]
